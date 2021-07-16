@@ -12,7 +12,7 @@ void main() async {
   };
 
   runZonedGuarded(
-    () => runApp(NLighten()),
+    () => runApp(const NLighten()),
     (error, stackTrace) {
       print(error.toString());
       print(stackTrace.toString());

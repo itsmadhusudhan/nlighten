@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nlighten/router/nlighten_router.dart';
 
 class NLighten extends StatelessWidget {
   const NLighten({Key? key}) : super(key: key);
@@ -12,13 +13,9 @@ class NLighten extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        body: const Center(
-            child: Text(
-          "NLighten",
-          style: const TextStyle(fontSize: 24),
-        )),
-      ),
+      onGenerateRoute: NLightenRouter.onGenerateRoute,
+      initialRoute: NLightenRouter.initialRoute,
+      navigatorObservers: [NLightenRouter.rootRouteObserver],
     );
   }
 }
