@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nlighten/modules/category/category_list_page.dart';
 import 'package:nlighten/modules/home/home_page.dart';
+import 'package:nlighten/modules/videolist/video_list_page.dart';
 import 'package:nlighten/router/routes.dart';
 
 class NLightenRouter {
@@ -18,6 +19,15 @@ class NLightenRouter {
 
       case Routes.categoryListRoute:
         _builder = CategoryListPage();
+        break;
+
+      case Routes.videoListRoute:
+        final _arguments = settings.arguments as VideoCategoryArgumnets;
+
+        _builder = VideoListPage(
+          id: _arguments.categoryId,
+          title: _arguments.categoryTitle,
+        );
         break;
 
       default:

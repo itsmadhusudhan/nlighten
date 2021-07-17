@@ -21,7 +21,12 @@ class VideoPlayerArgumnets {
 }
 
 class VideoCategoryArgumnets {
-  final String id;
+  final String categoryId;
 
-  VideoCategoryArgumnets(this.id);
+  final String categoryTitle;
+
+  VideoCategoryArgumnets({
+    required this.categoryId,
+    required this.categoryTitle,
+  });
 }

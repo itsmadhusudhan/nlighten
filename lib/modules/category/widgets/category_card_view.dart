@@ -4,6 +4,7 @@ import 'package:nlighten/modules/category/cubit/category_cubit.dart';
 
 import 'package:nlighten/modules/category/widgets/category_card.dart';
 import 'package:nlighten/modules/category/widgets/title_row.dart';
+import 'package:nlighten/modules/videolist/video_list_page.dart';
 import 'package:nlighten/router/routes.dart';
 
 class CategoryCardView extends StatelessWidget {
@@ -32,7 +33,8 @@ class CategoryCardView extends StatelessWidget {
                 itemBuilder: (ctx, index) => CategoryCard(
                   category: categories[index],
                   onPressed: (id) {
-                    print(id);
+                    VideoListPage.pushVideoListPageRoute(context,
+                        title: categories[index].title, id: id);
                   },
                 ),
               ),
