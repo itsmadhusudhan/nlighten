@@ -23,7 +23,7 @@ class AppBottomNavigationBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.watch_later),
-          label: "Watch Later",
+          label: "Watch History",
         ),
       ],
     );

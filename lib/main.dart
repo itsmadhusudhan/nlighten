@@ -1,6 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:nlighten/app_environments.dart';
+import 'package:nlighten/locator.dart';
 import 'package:nlighten/nlighten.dart';
 
 void main() async {
@@ -12,10 +14,16 @@ void main() async {
   };
 
   runZonedGuarded(
-    () => runApp(const NLighten()),
+    initialiseApplication,
     (error, stackTrace) {
       print(error.toString());
       print(stackTrace.toString());
     },
   );
+}
+
+initialiseApplication() {
+  setupLocator(AppEnvironment.local);
+
+  runApp(const NLighten());
 }

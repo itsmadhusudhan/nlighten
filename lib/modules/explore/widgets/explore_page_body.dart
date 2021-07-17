@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nlighten/modules/category/widgets/widgets.dart';
 
 import 'widgets.dart';
 
@@ -10,11 +11,10 @@ class ExplorePageBody extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         const HeroSlider(),
-        Expanded(
-          child: const Center(
-            child: Text("Video Categories will appear here"),
-          ),
-        )
+        Container(
+          height: 220,
+          child: const CategoryCardView(),
+        ),
       ],
     );
   }
