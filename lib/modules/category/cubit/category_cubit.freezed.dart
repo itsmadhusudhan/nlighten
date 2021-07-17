@@ -30,9 +30,9 @@ class _$CategoryStateTearOff {
     );
   }
 
-  _CategoryStateSuccess success(List<CategoryModel> data) {
+  _CategoryStateSuccess success(List<CategoryModel> categories) {
     return _CategoryStateSuccess(
-      data,
+      categories,
     );
   }
 }
@@ -47,7 +47,7 @@ mixin _$CategoryState {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(List<CategoryModel> data) success,
+    required TResult Function(List<CategoryModel> categories) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -55,7 +55,7 @@ mixin _$CategoryState {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(List<CategoryModel> data)? success,
+    TResult Function(List<CategoryModel> categories)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -138,7 +138,7 @@ class _$_CategoryStateInitial implements _CategoryStateInitial {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(List<CategoryModel> data) success,
+    required TResult Function(List<CategoryModel> categories) success,
   }) {
     return initial();
   }
@@ -149,7 +149,7 @@ class _$_CategoryStateInitial implements _CategoryStateInitial {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(List<CategoryModel> data)? success,
+    TResult Function(List<CategoryModel> categories)? success,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -232,7 +232,7 @@ class _$_CategoryStateLoading implements _CategoryStateLoading {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(List<CategoryModel> data) success,
+    required TResult Function(List<CategoryModel> categories) success,
   }) {
     return loading();
   }
@@ -243,7 +243,7 @@ class _$_CategoryStateLoading implements _CategoryStateLoading {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(List<CategoryModel> data)? success,
+    TResult Function(List<CategoryModel> categories)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -351,7 +351,7 @@ class _$_CategoryStateError implements _CategoryStateError {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(List<CategoryModel> data) success,
+    required TResult Function(List<CategoryModel> categories) success,
   }) {
     return error(message);
   }
@@ -362,7 +362,7 @@ class _$_CategoryStateError implements _CategoryStateError {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(List<CategoryModel> data)? success,
+    TResult Function(List<CategoryModel> categories)? success,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -413,7 +413,7 @@ abstract class _$CategoryStateSuccessCopyWith<$Res> {
   factory _$CategoryStateSuccessCopyWith(_CategoryStateSuccess value,
           $Res Function(_CategoryStateSuccess) then) =
       __$CategoryStateSuccessCopyWithImpl<$Res>;
-  $Res call({List<CategoryModel> data});
+  $Res call({List<CategoryModel> categories});
 }
 
 /// @nodoc
@@ -429,12 +429,12 @@ class __$CategoryStateSuccessCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object? data = freezed,
+    Object? categories = freezed,
   }) {
     return _then(_CategoryStateSuccess(
-      data == freezed
-          ? _value.data
-          : data // ignore: cast_nullable_to_non_nullable
+      categories == freezed
+          ? _value.categories
+          : categories // ignore: cast_nullable_to_non_nullable
               as List<CategoryModel>,
     ));
   }
@@ -443,27 +443,28 @@ class __$CategoryStateSuccessCopyWithImpl<$Res>
 /// @nodoc
 
 class _$_CategoryStateSuccess implements _CategoryStateSuccess {
-  _$_CategoryStateSuccess(this.data);
+  _$_CategoryStateSuccess(this.categories);
 
   @override
-  final List<CategoryModel> data;
+  final List<CategoryModel> categories;
 
   @override
   String toString() {
-    return 'CategoryState.success(data: $data)';
+    return 'CategoryState.success(categories: $categories)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other is _CategoryStateSuccess &&
-            (identical(other.data, data) ||
-                const DeepCollectionEquality().equals(other.data, data)));
+            (identical(other.categories, categories) ||
+                const DeepCollectionEquality()
+                    .equals(other.categories, categories)));
   }
 
   @override
   int get hashCode =>
-      runtimeType.hashCode ^ const DeepCollectionEquality().hash(data);
+      runtimeType.hashCode ^ const DeepCollectionEquality().hash(categories);
 
   @JsonKey(ignore: true)
   @override
@@ -477,9 +478,9 @@ class _$_CategoryStateSuccess implements _CategoryStateSuccess {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(List<CategoryModel> data) success,
+    required TResult Function(List<CategoryModel> categories) success,
   }) {
-    return success(data);
+    return success(categories);
   }
 
   @override
@@ -488,11 +489,11 @@ class _$_CategoryStateSuccess implements _CategoryStateSuccess {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(List<CategoryModel> data)? success,
+    TResult Function(List<CategoryModel> categories)? success,
     required TResult orElse(),
   }) {
     if (success != null) {
-      return success(data);
+      return success(categories);
     }
     return orElse();
   }
@@ -525,10 +526,10 @@ class _$_CategoryStateSuccess implements _CategoryStateSuccess {
 }
 
 abstract class _CategoryStateSuccess implements CategoryState {
-  factory _CategoryStateSuccess(List<CategoryModel> data) =
+  factory _CategoryStateSuccess(List<CategoryModel> categories) =
       _$_CategoryStateSuccess;
 
-  List<CategoryModel> get data => throw _privateConstructorUsedError;
+  List<CategoryModel> get categories => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
   _$CategoryStateSuccessCopyWith<_CategoryStateSuccess> get copyWith =>
       throw _privateConstructorUsedError;

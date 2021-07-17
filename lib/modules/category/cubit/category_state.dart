@@ -8,6 +8,6 @@ class CategoryState with _$CategoryState {
 
   factory CategoryState.error({required String message}) = _CategoryStateError;
 
-  factory CategoryState.success(List<CategoryModel> data) =
+  factory CategoryState.success(List<CategoryModel> categories) =
       _CategoryStateSuccess;
 }

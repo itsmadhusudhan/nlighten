@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nlighten/modules/category/category_list_page.dart';
 import 'package:nlighten/modules/home/home_page.dart';
 import 'package:nlighten/router/routes.dart';
 
@@ -13,6 +14,10 @@ class NLightenRouter {
     switch (settings.name) {
       case Routes.root:
         _builder = HomePage();
+        break;
+
+      case Routes.categoryListRoute:
+        _builder = CategoryListPage();
         break;
 
       default:
