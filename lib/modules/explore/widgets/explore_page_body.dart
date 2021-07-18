@@ -27,6 +27,13 @@ class ExplorePageBody extends StatelessWidget {
             height: 240,
             child: const CategoryCardView(),
           ),
+          Container(
+            height: 270,
+            child: const VideoListCardView(
+              title: "Oneness Capsules",
+              id: "onenessCapsules",
+            ),
+          ),
         ],
       ),
     );
