@@ -13,10 +13,11 @@ _$_VideoModel _$_$_VideoModelFromJson(Map<String, dynamic> json) {
     videoUrl: json['videoUrl'] as String,
     thumbnailUrl: json['thumbnailUrl'] as String,
     categoryId: json['categoryId'] as String,
+    categoryName: json['categoryName'] as String,
+    description: json['description'] as String?,
     publishedOn: json['publishedOn'] == null
         ? null
         : DateTime.parse(json['publishedOn'] as String),
-    description: json['description'] as String?,
   );
 }
 
@@ -27,6 +28,7 @@ Map<String, dynamic> _$_$_VideoModelToJson(_$_VideoModel instance) =>
       'videoUrl': instance.videoUrl,
       'thumbnailUrl': instance.thumbnailUrl,
       'categoryId': instance.categoryId,
-      'publishedOn': instance.publishedOn?.toIso8601String(),
+      'categoryName': instance.categoryName,
       'description': instance.description,
+      'publishedOn': instance.publishedOn?.toIso8601String(),
     };

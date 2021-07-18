@@ -1,3 +1,5 @@
+import 'package:nlighten_domain/nlighten_domain.dart';
+
 class Routes {
   static const String root = "/";
 
@@ -11,13 +13,13 @@ class Routes {
 
   static const String categoryListRoute = "/categorylist";
 
-  static const String videoRoute = "/video";
+  static const String videoPlayerRoute = "/videoPlayer";
 }
 
 class VideoPlayerArgumnets {
-  final String url;
+  final VideoModel video;
 
-  VideoPlayerArgumnets(this.url);
+  VideoPlayerArgumnets(this.video);
 }
 
 class VideoCategoryArgumnets {

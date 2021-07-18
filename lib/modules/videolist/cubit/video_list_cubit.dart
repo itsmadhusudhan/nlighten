@@ -1,13 +1,12 @@
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
-import 'package:nlighten/app_environments.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 
 part 'video_list_state.dart';
 part 'video_list_cubit.freezed.dart';
 
-@Injectable(env: [AppEnvironment.local])
+@Injectable()
 class VideoListCubit extends Cubit<VideoListState> {
   final VideoRepository _videoRepository;
 
@@ -27,7 +26,12 @@ class VideoListCubit extends Cubit<VideoListState> {
               .map<VideoModel>((json) => VideoModel.fromJson(
                     json
                       ..putIfAbsent('categoryId', () => key)
-                      ..putIfAbsent('thumbnailUrl', () => ''),
+                      ..putIfAbsent('categoryName', () => json['category'])
+                      ..putIfAbsent(
+                        'thumbnailUrl',
+                        () =>
+                            "https://img.youtube.com/vi/${json['id']}/hqdefault.jpg",
+                      ),
                   ))
               .toList()
           : [];

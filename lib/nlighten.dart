@@ -4,6 +4,7 @@ import 'package:nlighten/locator.dart';
 
 import 'package:nlighten/modules/category/cubit/category_cubit.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
+import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
 import 'package:nlighten/router/nlighten_router.dart';
 
 class NLighten extends StatelessWidget {
@@ -19,6 +20,10 @@ class NLighten extends StatelessWidget {
         BlocProvider(
           create: (ctx) => getIt<VideoListCubit>()..getAllVideos(),
         ),
+        BlocProvider(
+          lazy: false,
+          create: (ctx) => getIt<VideoPlayerCubit>(),
+        ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -27,6 +32,7 @@ class NLighten extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
+        // themeMode: ThemeMode.dark,
         onGenerateRoute: NLightenRouter.onGenerateRoute,
         initialRoute: NLightenRouter.initialRoute,
         navigatorObservers: [NLightenRouter.rootRouteObserver],

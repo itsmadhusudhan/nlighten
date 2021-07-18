@@ -11,8 +11,10 @@ class VideoModel with _$VideoModel {
     required String videoUrl,
     required String thumbnailUrl,
     required String categoryId,
-    DateTime? publishedOn, // might need to make this required later
+    required String
+        categoryName, // added this so that we dont have to search for it all the time
     String? description,
+    DateTime? publishedOn, // might need to make this required later
   }) = _VideoModel;
 
   factory VideoModel.fromJson(Map<String, dynamic> json) =>
