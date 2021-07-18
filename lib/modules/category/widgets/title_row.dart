@@ -24,7 +24,12 @@ class TitleRow extends StatelessWidget {
           style: TextStyle(fontSize: 20),
         ),
         if (onPressed != null)
-          TextButton(onPressed: onPressed, child: Text(actionText))
+          InkWell(
+              onTap: onPressed,
+              child: Text(
+                actionText,
+                style: TextStyle(color: Colors.blue),
+              ))
       ],
     );
   }

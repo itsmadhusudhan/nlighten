@@ -16,7 +16,7 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 250,
+      width: 260,
       margin: EdgeInsets.symmetric(horizontal: 12),
       child: InkWell(
         onTap: () => onPressed(category.id),
