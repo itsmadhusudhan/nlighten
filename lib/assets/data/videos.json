@@ -1,23 +1,2910 @@
 {
-  "shiva_sutra": [
+  "Career": [
     {
-      "id": "",
-      "title": "Perception Beyond Perception - Shiva Sutras in Nithyananda Videos",
-      "description": "",
-      "videoUrl": "Fmgx9m7ISlo",
-      "thumbnailUrl": "",
-      "categoryId": ""
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=_axPNJwNw5k",
+      "title": "Field of Consciousness Short Nithyananda Videos",
+      "id": "_axPNJwNw5k"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=_HE6qYOBN8s",
+      "title": "Stop measuring actions based on result",
+      "id": "_HE6qYOBN8s"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=_HE6qYOBN8s",
+      "title": "Stop measuring actions based on result",
+      "id": "_HE6qYOBN8s"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=_WNgbnbD5KI",
+      "title": "Altering according to society",
+      "id": "_WNgbnbD5KI"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=1GLAeAt3L6Y",
+      "title": "Time space Continuum 1st July Short nithyananda videos",
+      "id": "1GLAeAt3L6Y"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=1GLAeAt3L6Y",
+      "title": "Time space Continuum 1st July Short nithyananda videos",
+      "id": "1GLAeAt3L6Y"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=1m4XpDcQ0jY",
+      "title": "The Physics of Desire Nithyananda Short Videos",
+      "id": "1m4XpDcQ0jY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=1m4XpDcQ0jY",
+      "title": "The Physics of Desire Nithyananda Short Videos",
+      "id": "1m4XpDcQ0jY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://youtu.be/1QE2aWZtqwc",
+      "title": "Building leadership qualities",
+      "id": "1QE2aWZtqwc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=2s3oMvjSb5I",
+      "title": "Your Identity is a Big Lie - Short Nithyananda Videos",
+      "id": "2s3oMvjSb5I"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=2s3oMvjSb5I",
+      "title": "Your Identity is a Big Lie - Short Nithyananda Videos",
+      "id": "2s3oMvjSb5I"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=2UpK7FZ4JYY&feature=plcp",
+      "title": "How can I be refreshed and feel rejuvenated daily?",
+      "id": "2UpK7FZ4JYY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=2UpK7FZ4JYY&feature=plcp",
+      "title": "How can I be refreshed and feel rejuvenated daily?",
+      "id": "2UpK7FZ4JYY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=3-cirKjo5YU",
+      "title": "Your Presence is Weightlessness - Short Nithyananda Videos",
+      "id": "3-cirKjo5YU"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=3-cirKjo5YU",
+      "title": "Your Presence is Weightlessness - Short Nithyananda Videos",
+      "id": "3-cirKjo5YU"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=3x_J2ZxbeR8",
+      "title": "Transforming individual love into universal love",
+      "id": "3x_J2ZxbeR8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=3x_J2ZxbeR8",
+      "title": "Transforming individual love into universal love",
+      "id": "3x_J2ZxbeR8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=5tj3CrRBUS4",
+      "title": "Transforming your Beliefs",
+      "id": "5tj3CrRBUS4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=5tj3CrRBUS4",
+      "title": "Transforming your Beliefs",
+      "id": "5tj3CrRBUS4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=9OeBdl9CaJQ",
+      "title": "Owning your time",
+      "id": "9OeBdl9CaJQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=9OeBdl9CaJQ",
+      "title": "Owning your time",
+      "id": "9OeBdl9CaJQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=amTaMnFLGFw",
+      "title": "Lose to win and why we repeat our Mistakes",
+      "id": "amTaMnFLGFw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=amTaMnFLGFw",
+      "title": "Lose to win and why we repeat our Mistakes",
+      "id": "amTaMnFLGFw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=b7TLDqr4xv0",
+      "title": "Motivating your actions",
+      "id": "b7TLDqr4xv0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=b7TLDqr4xv0",
+      "title": "Motivating your actions",
+      "id": "b7TLDqr4xv0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=bjCo_Hp-Rj0",
+      "title": "Vedic Life Style - Short Nithyananda Videos",
+      "id": "bjCo_Hp-Rj0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=bjCo_Hp-Rj0",
+      "title": "Vedic Life Style - Short Nithyananda Videos",
+      "id": "bjCo_Hp-Rj0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=byG0-gGNoSc",
+      "title": "Mathematics of Karma 21st june 2011 Short Nithyanada Videos",
+      "id": "byG0-gGNoSc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=byG0-gGNoSc",
+      "title": "Mathematics of Karma 21st june 2011 Short Nithyanada Videos",
+      "id": "byG0-gGNoSc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=C6zUKvd-DSc",
+      "title": "Your senses reflect consciousness",
+      "id": "C6zUKvd-DSc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=C6zUKvd-DSc",
+      "title": "Your senses reflect consciousness",
+      "id": "C6zUKvd-DSc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=cah6VHuVPuc",
+      "title": "Being a high achiever effortlessly",
+      "id": "cah6VHuVPuc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=cdV-Pc06V8U",
+      "title": "Liberating Birth and Death",
+      "id": "cdV-Pc06V8U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=cdV-Pc06V8U",
+      "title": "Liberating Birth and Death",
+      "id": "cdV-Pc06V8U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=dgAo5ENgveM",
+      "title": "Real sacrifice",
+      "id": "dgAo5ENgveM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=dgAo5ENgveM",
+      "title": "Real sacrifice",
+      "id": "dgAo5ENgveM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=e2HCQmuHyaw",
+      "title": "You can Never Enjoy Things with your Mind - Short Nithyananda Videos",
+      "id": "e2HCQmuHyaw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=e2HCQmuHyaw",
+      "title": "You can Never Enjoy Things with your Mind - Short Nithyananda Videos",
+      "id": "e2HCQmuHyaw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=hreclrPE8A8",
+      "title": "Bhagavad Gita Chapter 4: How to find out if someone is enlightened",
+      "id": "hreclrPE8A8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=iBQife3dumY&feature=youtu.be",
+      "title": "Get back to Witnessing Consciousness",
+      "id": "iBQife3dumY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=iBQife3dumY&feature=youtu.be",
+      "title": "Get back to Witnessing Consciousness",
+      "id": "iBQife3dumY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=IDtRZiGs2rk&feature=youtu.be",
+      "title": "Stop hurting your kids",
+      "id": "IDtRZiGs2rk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=IDtRZiGs2rk&feature=youtu.be",
+      "title": "Stop hurting your kids",
+      "id": "IDtRZiGs2rk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=IoZvCtBdkjA",
+      "title": "Don't Believe, Just Experience! Bhagavad Gita by Nithyananda",
+      "id": "IoZvCtBdkjA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Joq7yhXLNE0",
+      "title": "The Original Sin - Short Nithyananda Videos",
+      "id": "Joq7yhXLNE0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Joq7yhXLNE0",
+      "title": "The Original Sin - Short Nithyananda Videos",
+      "id": "Joq7yhXLNE0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=jTh4Jc-llls",
+      "title": "Achieving Leader Consciousness",
+      "id": "jTh4Jc-llls"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=kFZdNyb4CEk",
+      "title": "We don't need Secularism Brahma Sutras 26th Aug 2011",
+      "id": "kFZdNyb4CEk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=kFZdNyb4CEk",
+      "title": "We don't need Secularism Brahma Sutras 26th Aug 2011",
+      "id": "kFZdNyb4CEk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=L5LRUx4S2rY",
+      "title": "Being Unclutched",
+      "id": "L5LRUx4S2rY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Lb3ne3f_rkE",
+      "title": "Being Contented",
+      "id": "Lb3ne3f_rkE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Spectrum Analysis of Karma Short Nithyananda Videos",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Stopping indulging in your weaknesses",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Spectrum Analysis of Karma Short Nithyananda Videos",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Stopping indulging in your weaknesses",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Lttxrkcznn0",
+      "title": "Enjoy your Desires",
+      "id": "Lttxrkcznn0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ma1j8KCFGdo",
+      "title": "Getting Enlightenment experience instantly",
+      "id": "ma1j8KCFGdo"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ma1j8KCFGdo",
+      "title": "Getting Enlightenment experience instantly",
+      "id": "ma1j8KCFGdo"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=meJvii7XJtw",
+      "title": "Stop Collecting Negativity",
+      "id": "meJvii7XJtw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=meJvii7XJtw",
+      "title": "Stop Collecting Negativity",
+      "id": "meJvii7XJtw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mo2cliTFcZE",
+      "title": "Understanding effects of thoughts",
+      "id": "mo2cliTFcZE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mo2cliTFcZE",
+      "title": "Understanding effects of thoughts",
+      "id": "mo2cliTFcZE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mOtIz1C-3yg",
+      "title": "Understanding Your Uniqueness",
+      "id": "mOtIz1C-3yg"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mOtIz1C-3yg",
+      "title": "Understanding Your Uniqueness",
+      "id": "mOtIz1C-3yg"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=MPyG2a7CoeE",
+      "title": "You Only Remember People Who Disturb You - Short Nithyananda Videos",
+      "id": "MPyG2a7CoeE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=MPyG2a7CoeE",
+      "title": "You Only Remember People Who Disturb You - Short Nithyananda Videos",
+      "id": "MPyG2a7CoeE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mQ8fiWEyWfo",
+      "title": "Being a high achiever",
+      "id": "mQ8fiWEyWfo"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mQvgEU4qJ1w",
+      "title": "Having Stress Free Life",
+      "id": "mQvgEU4qJ1w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mQvgEU4qJ1w",
+      "title": "Having Stress Free Life",
+      "id": "mQvgEU4qJ1w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mramLfLzVS4",
+      "title": "Going Beyond Societal Beliefs",
+      "id": "mramLfLzVS4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=mramLfLzVS4",
+      "title": "Going Beyond Societal Beliefs",
+      "id": "mramLfLzVS4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=N1zU-TmFZ_E",
+      "title": "Solving Problems",
+      "id": "N1zU-TmFZ_E"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=N1zU-TmFZ_E",
+      "title": "Solving Problems",
+      "id": "N1zU-TmFZ_E"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=n9tDF38yty0",
+      "title": "Being raised by an Incarnation",
+      "id": "n9tDF38yty0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=nEStdN-eYaQ",
+      "title": "Breath The Bridge between You and the Universe",
+      "id": "nEStdN-eYaQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=NjTgBOVXmKc",
+      "title": "Radiating all auspicious patterns",
+      "id": "NjTgBOVXmKc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=NjTgBOVXmKc",
+      "title": "Radiating all auspicious patterns",
+      "id": "NjTgBOVXmKc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=NkU8IxP8IkA",
+      "title": "Achieving reality without expectations",
+      "id": "NkU8IxP8IkA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=NTpyNZ9f5uA",
+      "title": "Planning life",
+      "id": "NTpyNZ9f5uA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=NTpyNZ9f5uA",
+      "title": "Planning life",
+      "id": "NTpyNZ9f5uA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Nu4-64AN-b4",
+      "title": "Being mortal or immortal",
+      "id": "Nu4-64AN-b4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=nuN9WNAJweQ",
+      "title": "Getting control over mind",
+      "id": "nuN9WNAJweQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=nuN9WNAJweQ",
+      "title": "Getting control over mind",
+      "id": "nuN9WNAJweQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=O35rsBNC70w",
+      "title": "Getting liberation from sufferings",
+      "id": "O35rsBNC70w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=O35rsBNC70w",
+      "title": "Getting liberation from sufferings",
+      "id": "O35rsBNC70w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=OiTGSioljzc",
+      "title": "Removing engraved memories",
+      "id": "OiTGSioljzc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=OiTGSioljzc",
+      "title": "Removing engraved memories",
+      "id": "OiTGSioljzc"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ORGTUXEdY5M",
+      "title": "Developing leadership consciousness",
+      "id": "ORGTUXEdY5M"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=OzkRsgHAG5A",
+      "title": "Getting ultimate solutions",
+      "id": "OzkRsgHAG5A"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=OzkRsgHAG5A",
+      "title": "Getting ultimate solutions",
+      "id": "OzkRsgHAG5A"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PbAe2u8ksNQ",
+      "title": "Getting rid of Inherited disorders and diseases",
+      "id": "PbAe2u8ksNQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PbAe2u8ksNQ",
+      "title": "Getting rid of Inherited disorders and diseases",
+      "id": "PbAe2u8ksNQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PeVYcZqlkUE&feature=youtu.be",
+      "title": "Understand your past Unlock your future Nithyananda Short Video",
+      "id": "PeVYcZqlkUE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PeVYcZqlkUE&feature=youtu.be",
+      "title": "Understand your past Unlock your future Nithyananda Short Video",
+      "id": "PeVYcZqlkUE"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PIuvfB7eNC4",
+      "title": "Understanding Your Duties",
+      "id": "PIuvfB7eNC4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PIuvfB7eNC4",
+      "title": "Understanding Your Duties",
+      "id": "PIuvfB7eNC4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=PmGe-yzmbXw",
+      "title": "Being Immortal",
+      "id": "PmGe-yzmbXw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=pwd7o8Sn0jw",
+      "title": "Right action for right reason",
+      "id": "pwd7o8Sn0jw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=q_Y3iA-mSBQ",
+      "title": "Differentiating between Enlightened master and Incarnation",
+      "id": "q_Y3iA-mSBQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=qd9ZepBgAUk",
+      "title": "Handling responsibilities tirelessly",
+      "id": "qd9ZepBgAUk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=qd9ZepBgAUk",
+      "title": "Handling responsibilities tirelessly",
+      "id": "qd9ZepBgAUk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=QGTmF6C8dKA",
+      "title": "Enjoying your desires",
+      "id": "QGTmF6C8dKA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=QjcGLhkAhGU&feature=youtu.be",
+      "title": "Having perfect health",
+      "id": "QjcGLhkAhGU"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=QjcGLhkAhGU&feature=youtu.be",
+      "title": "Having perfect health",
+      "id": "QjcGLhkAhGU"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=rEVpaGys_0s",
+      "title": "Transforming now",
+      "id": "rEVpaGys_0s"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=rEVpaGys_0s",
+      "title": "Transforming now",
+      "id": "rEVpaGys_0s"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=RZ26FZhBheA",
+      "title": "Staying away from depression",
+      "id": "RZ26FZhBheA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=RZ26FZhBheA",
+      "title": "Staying away from depression",
+      "id": "RZ26FZhBheA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=s70RcakFofk",
+      "title": "Being intense in spiritual practice",
+      "id": "s70RcakFofk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Sh87sgCt9hM",
+      "title": "Enlightenment - The Career for Modern Youth: Brahma Sutra 4: Short Nithyananda Videos",
+      "id": "Sh87sgCt9hM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=TN15gYqYdf4&feature=youtu.be",
+      "title": "Extending your capacity",
+      "id": "TN15gYqYdf4"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=tpJmIw_jMHM",
+      "title": "Having a stable family",
+      "id": "tpJmIw_jMHM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=UEni11nhIa8",
+      "title": "Pain & Suffering -The Powerful Master for non-possessiveness",
+      "id": "UEni11nhIa8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=UEni11nhIa8https://www.youtube.com/watch?v=UEni11nhIa8",
+      "title": "Pain & Suffering -The Powerful Master for non-possessiveness",
+      "id": "UEni11nhIa8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ukHx7uSDgPA",
+      "title": "Working towards self development",
+      "id": "ukHx7uSDgPA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ukHx7uSDgPA",
+      "title": "Working towards self development",
+      "id": "ukHx7uSDgPA"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=uR9rOpcgeTw",
+      "title": "Developing Intensity",
+      "id": "uR9rOpcgeTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Ut777r2El8U&t=2s",
+      "title": "Just Drop your Ideas about You Brahma Sutras 27th Aug 2011",
+      "id": "Ut777r2El8U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Ut777r2El8U&t=2s",
+      "title": "Just Drop your Ideas about You Brahma Sutras 27th Aug 2011",
+      "id": "Ut777r2El8U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=uYkN-LMozRI",
+      "title": "Interpreting your Deja Vu experiences",
+      "id": "uYkN-LMozRI"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=uYkN-LMozRI",
+      "title": "Interpreting your Deja Vu experiences",
+      "id": "uYkN-LMozRI"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vKjOoa87VDM",
+      "title": "Maintaining a Pure Consciousness",
+      "id": "vKjOoa87VDM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vKjOoa87VDM",
+      "title": "Maintaining a Pure Consciousness",
+      "id": "vKjOoa87VDM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vOprXmXcaTw",
+      "title": "Taking up Conscious Responsibility",
+      "id": "vOprXmXcaTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vOprXmXcaTw",
+      "title": "Taking up Conscious Responsibility",
+      "id": "vOprXmXcaTw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vvonj_Ymg24",
+      "title": "Thinking also enlightenment",
+      "id": "vvonj_Ymg24"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=vvonj_Ymg24",
+      "title": "Thinking also enlightenment",
+      "id": "vvonj_Ymg24"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=W_M2_SIj66w",
+      "title": "How can I control strong emotions like anger?",
+      "id": "W_M2_SIj66w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=WBrVnXeZub0",
+      "title": "Enjoying the World",
+      "id": "WBrVnXeZub0"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=wdbClVGT6yg",
+      "title": "Achieving fulfillment in work life",
+      "id": "wdbClVGT6yg"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=WGkPHh6SdRs",
+      "title": "Escaping Mind Pressure",
+      "id": "WGkPHh6SdRs"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "How can I discover my lifeʼs purpose and mission?",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "Discovering your life's pupose",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "How can I discover my lifeʼs purpose and mission?",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=wKxXpV9GRa8",
+      "title": "Creating An Enlightened Society",
+      "id": "wKxXpV9GRa8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=X6u7c8_Wk5c",
+      "title": "Mastering your senses",
+      "id": "X6u7c8_Wk5c"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=X6u7c8_Wk5c",
+      "title": "Mastering your senses",
+      "id": "X6u7c8_Wk5c"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=X9s36E8xghQ",
+      "title": "Making Visualization a Reality",
+      "id": "X9s36E8xghQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=X9s36E8xghQ",
+      "title": "Making Visualization a Reality",
+      "id": "X9s36E8xghQ"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=xTSHvVbwOSI",
+      "title": "Awakening Kundalini Using Straight Technique",
+      "id": "xTSHvVbwOSI"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=y1Hr8ngp18U",
+      "title": "Leading life authentically",
+      "id": "y1Hr8ngp18U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=y1Hr8ngp18U",
+      "title": "Leading life authentically",
+      "id": "y1Hr8ngp18U"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=YzCHVJHEzi8",
+      "title": "Awakening your dimensions",
+      "id": "YzCHVJHEzi8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4cK_t3kZDY",
+      "title": "Indentify your inner space",
+      "id": "Z4cK_t3kZDY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4cK_t3kZDY",
+      "title": "Indentify your inner space",
+      "id": "Z4cK_t3kZDY"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4vRSoFO4Z8",
+      "title": "Overcoming Fantasies",
+      "id": "Z4vRSoFO4Z8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4vRSoFO4Z8",
+      "title": "Overcoming Fantasies",
+      "id": "Z4vRSoFO4Z8"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ziB0SFBotEk",
+      "title": "Vedic Time Management Short Nithyananda Videos",
+      "id": "ziB0SFBotEk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=ziB0SFBotEk",
+      "title": "Vedic Time Management Short Nithyananda Videos",
+      "id": "ziB0SFBotEk"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=Zk26nsAzB6o",
+      "title": "Experiencing ultimate joy as a disciple",
+      "id": "Zk26nsAzB6o"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=zUitNkWhOLw",
+      "title": "Overcoming emotional reactions",
+      "id": "zUitNkWhOLw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://www.youtube.com/watch?v=zUitNkWhOLw",
+      "title": "Overcoming emotional reactions",
+      "id": "zUitNkWhOLw"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://youtu.be/_axPNJwNw5k",
+      "title": "Field of Consciousness Short Nithyananda Videos",
+      "id": "_axPNJwNw5k"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://youtu.be/tpJmIw_jMHM",
+      "title": "Having a stable family",
+      "id": "tpJmIw_jMHM"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://youtu.be/W_M2_SIj66w",
+      "title": "How can I control strong emotions like anger?",
+      "id": "W_M2_SIj66w"
+    },
+    {
+      "category": "Career",
+      "videoUrl": "https://youtu.be/pwd7o8Sn0jw",
+      "title": "Right action for right reason",
+      "id": "pwd7o8Sn0jw"
     }
   ],
-  "yoga_sutra": [
+  "Life and Death": [
     {
-      "id": "",
-      "title": "Why does an Avatar or Incarnation happen?",
-      "description": "",
-      "videoUrl": "XCLx-Y46Gs4",
-      "categoryId": "",
-      "thumbnailUrl": ""
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=9OeBdl9CaJQ",
+      "title": "Owning your time",
+      "id": "9OeBdl9CaJQ"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=iG1ocfSR1yM",
+      "title": "Fear of death",
+      "id": "iG1ocfSR1yM"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=JiE5L5EGkAw&feature=youtu.be",
+      "title": "Understand fear of death - Patanjanli Yoga Sutras: Short Nithyananda videos",
+      "id": "JiE5L5EGkAw"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=jsFCemYji0E",
+      "title": "Growing consciously with time",
+      "id": "jsFCemYji0E"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=NQBZMu9AMLM",
+      "title": "Predicting death",
+      "id": "NQBZMu9AMLM"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=sR8ZVHTT7ow",
+      "title": "Overcoming fear of turning back from spritual path",
+      "id": "sR8ZVHTT7ow"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=Vo6yozWCFsk",
+      "title": "Perceiving Knowledge",
+      "id": "Vo6yozWCFsk"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=Y1iU54FYV24&feature=youtu.be",
+      "title": "Your Fear is Baseless - Short Nithyananda Videos",
+      "id": "Y1iU54FYV24"
+    },
+    {
+      "category": "Life and Death",
+      "videoUrl": "https://www.youtube.com/watch?v=YtngA7mO3cg",
+      "title": "Overcoming Illusion (maya)",
+      "id": "YtngA7mO3cg"
     }
   ],
-  "bhagavad_geetha": []
+  "Relationship": [
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=1GLAeAt3L6Y",
+      "title": "Time space Continuum 1st July Short nithyananda videos",
+      "id": "1GLAeAt3L6Y"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=1m4XpDcQ0jY",
+      "title": "The Physics of Desire Nithyananda Short Videos",
+      "id": "1m4XpDcQ0jY"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=2s3oMvjSb5I",
+      "title": "Your Identity is a Big Lie - Short Nithyananda Videos",
+      "id": "2s3oMvjSb5I"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=2UpK7FZ4JYY&feature=plcp",
+      "title": "How can I be refreshed and feel rejuvenated daily?",
+      "id": "2UpK7FZ4JYY"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=3-cirKjo5YU",
+      "title": "Your Presence is Weightlessness - Short Nithyananda Videos",
+      "id": "3-cirKjo5YU"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=3x_J2ZxbeR8",
+      "title": "Transforming individual love into universal love",
+      "id": "3x_J2ZxbeR8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=5tj3CrRBUS4",
+      "title": "Transforming your Beliefs",
+      "id": "5tj3CrRBUS4"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=amTaMnFLGFw",
+      "title": "Lose to win and why we repeat our Mistakes",
+      "id": "amTaMnFLGFw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=b3bShraTlRM",
+      "title": "Bringing variety in your life",
+      "id": "b3bShraTlRM"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=b7TLDqr4xv0",
+      "title": "Motivating your actions",
+      "id": "b7TLDqr4xv0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=bjCo_Hp-Rj0",
+      "title": "Vedic Life Style - Short Nithyananda Videos",
+      "id": "bjCo_Hp-Rj0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=byG0-gGNoSc",
+      "title": "Mathematics of Karma 21st june 2011 Short Nithyanada Videos",
+      "id": "byG0-gGNoSc"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=C6zUKvd-DSc",
+      "title": "Your senses reflect consciousness",
+      "id": "C6zUKvd-DSc"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=cah6VHuVPuc",
+      "title": "Being a high achiever effortlessly",
+      "id": "cah6VHuVPuc"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=cdV-Pc06V8U",
+      "title": "Liberating Birth and Death",
+      "id": "cdV-Pc06V8U"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=dgAo5ENgveM",
+      "title": "Real sacrifice",
+      "id": "dgAo5ENgveM"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=e2HCQmuHyaw",
+      "title": "You can Never Enjoy Things with your Mind - Short Nithyananda Videos",
+      "id": "e2HCQmuHyaw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=eS9Iyj7CnWU",
+      "title": "Understanding the science of relationships",
+      "id": "eS9Iyj7CnWU"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=hreclrPE8A8",
+      "title": "Bhagavad Gita Chapter 4: How to find out if someone is enlightened",
+      "id": "hreclrPE8A8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=iBQife3dumY&feature=youtu.be",
+      "title": "Get back to Witnessing Consciousness",
+      "id": "iBQife3dumY"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=IDtRZiGs2rk&feature=youtu.be",
+      "title": "Stop hurting your kids",
+      "id": "IDtRZiGs2rk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=IoZvCtBdkjA",
+      "title": "Don't Believe, Just Experience! Bhagavad Gita by Nithyananda",
+      "id": "IoZvCtBdkjA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Joq7yhXLNE0",
+      "title": "The Original Sin - Short Nithyananda Videos",
+      "id": "Joq7yhXLNE0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=kFZdNyb4CEk",
+      "title": "We don't need Secularism Brahma Sutras 26th Aug 2011",
+      "id": "kFZdNyb4CEk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=L5LRUx4S2rY",
+      "title": "Being Unclutched",
+      "id": "L5LRUx4S2rY"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Lb3ne3f_rkE",
+      "title": "Being Contented",
+      "id": "Lb3ne3f_rkE"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Spectrum Analysis of Karma Short Nithyananda Videos",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Stopping indulging in your weaknesses",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Lttxrkcznn0",
+      "title": "Enjoy your Desires",
+      "id": "Lttxrkcznn0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=ma1j8KCFGdo",
+      "title": "Getting Enlightenment experience instantly",
+      "id": "ma1j8KCFGdo"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=meJvii7XJtw",
+      "title": "Stop Collecting Negativity",
+      "id": "meJvii7XJtw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=mo2cliTFcZE",
+      "title": "Understanding effects of thoughts",
+      "id": "mo2cliTFcZE"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=mOtIz1C-3yg",
+      "title": "Understanding Your Uniqueness",
+      "id": "mOtIz1C-3yg"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=MPyG2a7CoeE",
+      "title": "You Only Remember People Who Disturb You - Short Nithyananda Videos",
+      "id": "MPyG2a7CoeE"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=mQ8fiWEyWfo",
+      "title": "Being a high achiever",
+      "id": "mQ8fiWEyWfo"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=mramLfLzVS4",
+      "title": "Going Beyond Societal Beliefs",
+      "id": "mramLfLzVS4"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=N1zU-TmFZ_E",
+      "title": "Solving Problems",
+      "id": "N1zU-TmFZ_E"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=n9tDF38yty0",
+      "title": "Being raised by an Incarnation",
+      "id": "n9tDF38yty0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=NjTgBOVXmKc",
+      "title": "Radiating all auspicious patterns",
+      "id": "NjTgBOVXmKc"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=NTpyNZ9f5uA",
+      "title": "Planning life",
+      "id": "NTpyNZ9f5uA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=nuN9WNAJweQ",
+      "title": "Getting control over mind",
+      "id": "nuN9WNAJweQ"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=O35rsBNC70w",
+      "title": "Getting liberation from sufferings",
+      "id": "O35rsBNC70w"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=OiTGSioljzc",
+      "title": "Removing engraved memories",
+      "id": "OiTGSioljzc"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=ORGTUXEdY5M",
+      "title": "Developing leadership consciousness",
+      "id": "ORGTUXEdY5M"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=OzkRsgHAG5A",
+      "title": "Getting ultimate solutions",
+      "id": "OzkRsgHAG5A"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=PeVYcZqlkUE&feature=youtu.be",
+      "title": "Understand your past Unlock your future Nithyananda Short Video",
+      "id": "PeVYcZqlkUE"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=PIuvfB7eNC4",
+      "title": "Understanding Your Duties",
+      "id": "PIuvfB7eNC4"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=PmGe-yzmbXw",
+      "title": "Being Immortal",
+      "id": "PmGe-yzmbXw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=q_Y3iA-mSBQ",
+      "title": "Differentiating between Enlightened master and Incarnation",
+      "id": "q_Y3iA-mSBQ"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=qd9ZepBgAUk",
+      "title": "Handling responsibilities tirelessly",
+      "id": "qd9ZepBgAUk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=QGTmF6C8dKA",
+      "title": "Enjoying your desires",
+      "id": "QGTmF6C8dKA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=QjcGLhkAhGU&feature=youtu.be",
+      "title": "Having perfect health",
+      "id": "QjcGLhkAhGU"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=rEVpaGys_0s",
+      "title": "Transforming now",
+      "id": "rEVpaGys_0s"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=RZ26FZhBheA",
+      "title": "Staying away from depression",
+      "id": "RZ26FZhBheA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=S1TSyjf4tvI",
+      "title": "Avoiding passing your negative patterns to children",
+      "id": "S1TSyjf4tvI"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=s70RcakFofk&feature=youtu.be",
+      "title": "Being intense in spiritual practice",
+      "id": "s70RcakFofk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=sdym51INiAw",
+      "title": "Being Compassionate",
+      "id": "sdym51INiAw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=sR8ZVHTT7ow",
+      "title": "Overcoming fear of turning back from spiritual path",
+      "id": "sR8ZVHTT7ow"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=td29onTuwww",
+      "title": "Stopping functioning in same patterns",
+      "id": "td29onTuwww"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=TN15gYqYdf4&feature=youtu.be",
+      "title": "Extending your capacity",
+      "id": "TN15gYqYdf4"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=tTQiTqN1_AM",
+      "title": "Breaking free from Unconsciousness",
+      "id": "tTQiTqN1_AM"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=u4Dd3QDslXM",
+      "title": "Anti-Aging Secret",
+      "id": "u4Dd3QDslXM"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=UEni11nhIa8",
+      "title": "Pain & Suffering -The Powerful Master for non-possessiveness",
+      "id": "UEni11nhIa8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=uFXkYmhgYzk",
+      "title": "Why You need to Know About the 11 Dimensions of the Universe",
+      "id": "uFXkYmhgYzk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=ukHx7uSDgPA",
+      "title": "Working towards self development",
+      "id": "ukHx7uSDgPA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=uR9rOpcgeTw",
+      "title": "Developing Intensity",
+      "id": "uR9rOpcgeTw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Ut777r2El8U&t=2s",
+      "title": "Just Drop your Ideas about You Brahma Sutras 27th Aug 2011",
+      "id": "Ut777r2El8U"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=uYkN-LMozRI",
+      "title": "Interpreting your Deja Vu experiences",
+      "id": "uYkN-LMozRI"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=vOprXmXcaTw",
+      "title": "Taking up Conscious Responsibility",
+      "id": "vOprXmXcaTw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=vvonj_Ymg24",
+      "title": "Thinking also enlightenment",
+      "id": "vvonj_Ymg24"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=WBrVnXeZub0",
+      "title": "Enjoying the World",
+      "id": "WBrVnXeZub0"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=wdbClVGT6yg",
+      "title": "Achieving fulfillment in work life",
+      "id": "wdbClVGT6yg"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=WGkPHh6SdRs",
+      "title": "Escaping Mind Pressure",
+      "id": "WGkPHh6SdRs"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "Discovering your life's pupose",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "How can I discover my lifeʼs purpose and mission?",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=wKxXpV9GRa8",
+      "title": "Creating An Enlightened Society",
+      "id": "wKxXpV9GRa8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=X6u7c8_Wk5c",
+      "title": "Mastering your senses",
+      "id": "X6u7c8_Wk5c"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=X9s36E8xghQ",
+      "title": "Making Visualization a Reality",
+      "id": "X9s36E8xghQ"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=xTSHvVbwOSI",
+      "title": "Awakening Kundalini Using Straight Technique",
+      "id": "xTSHvVbwOSI"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=y1Hr8ngp18U",
+      "title": "Leading life authentically",
+      "id": "y1Hr8ngp18U"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=YzCHVJHEzi8",
+      "title": "Awakening your dimensions",
+      "id": "YzCHVJHEzi8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4cK_t3kZDY",
+      "title": "Indentify your inner space",
+      "id": "Z4cK_t3kZDY"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4vRSoFO4Z8",
+      "title": "Overcoming Fantasies",
+      "id": "Z4vRSoFO4Z8"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=ziB0SFBotEk",
+      "title": "Vedic Time Management Short Nithyananda Videos",
+      "id": "ziB0SFBotEk"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=Zk26nsAzB6o",
+      "title": "Experiencing ultimate joy as a disciple",
+      "id": "Zk26nsAzB6o"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://www.youtube.com/watch?v=zUitNkWhOLw",
+      "title": "Overcoming emotional reactions",
+      "id": "zUitNkWhOLw"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/NkU8IxP8IkA",
+      "title": "Achieving reality without expectations",
+      "id": "NkU8IxP8IkA"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/_WNgbnbD5KI",
+      "title": "Altering according to society",
+      "id": "_WNgbnbD5KI"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/Nu4-64AN-b4",
+      "title": "Being mortal or immortal",
+      "id": "Nu4-64AN-b4"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/nEStdN-eYaQ",
+      "title": "Breath The Bridge between You and the Universe",
+      "id": "nEStdN-eYaQ"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/_axPNJwNw5k",
+      "title": "Field of Consciousness Short Nithyananda Videos",
+      "id": "_axPNJwNw5k"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/tpJmIw_jMHM",
+      "title": "Having a stable family",
+      "id": "tpJmIw_jMHM"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/W_M2_SIj66w",
+      "title": "How can I control strong emotions like anger?",
+      "id": "W_M2_SIj66w"
+    },
+    {
+      "category": "Relationship",
+      "videoUrl": "https://youtu.be/pwd7o8Sn0jw",
+      "title": "Right action for right reason",
+      "id": "pwd7o8Sn0jw"
+    }
+  ],
+  "Spirituality": [
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=-2YxMVhQFyI",
+      "title": "Imbibing Qualities of a High Achiever",
+      "id": "-2YxMVhQFyI"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=-FFD9HT9i_A",
+      "title": "When desires cannot shake you and fears cannot frighten you...",
+      "id": "-FFD9HT9i_A"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=-i0U856L4Jw",
+      "title": "Overcoming Unconscious Life Patterns",
+      "id": "-i0U856L4Jw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=-oZ813gOFLM",
+      "title": "The Five Elements and Enlightenment - Short Nithyananda Videos",
+      "id": "-oZ813gOFLM"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=04UBvsCdfDE",
+      "title": "Conquer Karma With Intelligence Short Nithyananda Videos",
+      "id": "04UBvsCdfDE"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=1GLAeAt3L6Y",
+      "title": "Time space Continuum 1st July Short nithyananda videos",
+      "id": "1GLAeAt3L6Y"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=1m4XpDcQ0jY",
+      "title": "The Physics of Desire Nithyananda Short Videos",
+      "id": "1m4XpDcQ0jY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=2Jsq9nFm0R8",
+      "title": "Theory of Karma www.LifeBliss.org",
+      "id": "2Jsq9nFm0R8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=2s3oMvjSb5I",
+      "title": "Your Identity is a Big Lie - Short Nithyananda Videos",
+      "id": "2s3oMvjSb5I"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=2UpK7FZ4JYY&feature=plcp",
+      "title": "How can I be refreshed and feel rejuvenated daily?",
+      "id": "2UpK7FZ4JYY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=3-cirKjo5YU",
+      "title": "Your Presence is Weightlessness - Short Nithyananda Videos",
+      "id": "3-cirKjo5YU"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=32Vh8GnifqA&feature=youtu.be",
+      "title": "Conflicting Desires",
+      "id": "32Vh8GnifqA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=3DsDBVF2Qpc",
+      "title": "Going beyond mind",
+      "id": "3DsDBVF2Qpc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=3x_J2ZxbeR8",
+      "title": "Transforming individual love into universal love",
+      "id": "3x_J2ZxbeR8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=4eCOLSN4kqo",
+      "title": "Is Karma a punishment for sin 11 june Short Nithyananda Videos",
+      "id": "4eCOLSN4kqo"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=5Ijovte0bCo",
+      "title": "Experiencing Devotion",
+      "id": "5Ijovte0bCo"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=5tj3CrRBUS4",
+      "title": "Transforming your Beliefs",
+      "id": "5tj3CrRBUS4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=7rsduBn98kU",
+      "title": "Effortless Enlightenment Short Nithyananda Videos",
+      "id": "7rsduBn98kU"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=amTaMnFLGFw",
+      "title": "Lose to win and why we repeat our Mistakes",
+      "id": "amTaMnFLGFw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=b7TLDqr4xv0",
+      "title": "Motivating your actions",
+      "id": "b7TLDqr4xv0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=bF4eSkJJjkU",
+      "title": "Deeper Insights on Karma Series Short Nithyananda Videos",
+      "id": "bF4eSkJJjkU"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=bjCo_Hp-Rj0",
+      "title": "Vedic Life Style - Short Nithyananda Videos",
+      "id": "bjCo_Hp-Rj0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=byG0-gGNoSc",
+      "title": "Mathematics of Karma 21st june 2011 Short Nithyanada Videos",
+      "id": "byG0-gGNoSc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=C6zUKvd-DSc",
+      "title": "Your senses reflect consciousness",
+      "id": "C6zUKvd-DSc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=cah6VHuVPuc",
+      "title": "Being a high achiever effortlessly",
+      "id": "cah6VHuVPuc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=cdV-Pc06V8U",
+      "title": "Liberating Birth and Death",
+      "id": "cdV-Pc06V8U"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=dAdwhYtx3KY",
+      "title": "Being caught in illusion(Maya)",
+      "id": "dAdwhYtx3KY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=dgAo5ENgveM",
+      "title": "Real sacrifice",
+      "id": "dgAo5ENgveM"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=e2HCQmuHyaw",
+      "title": "You can Never Enjoy Things with your Mind - Short Nithyananda Videos",
+      "id": "e2HCQmuHyaw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=E6bqeq_asDw&feature=youtu.be",
+      "title": "Suppression of Thoughts Changes Your Body Language - Short Nithyananda Videos",
+      "id": "E6bqeq_asDw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=f-YYdn0BIqc",
+      "title": "Sitting in Silence - Short Nithyananda Videos",
+      "id": "f-YYdn0BIqc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=f8DAjkCKQw8",
+      "title": "Coming out of fear",
+      "id": "f8DAjkCKQw8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=fIjzyKHL7Q8",
+      "title": "Expanding in life continuously",
+      "id": "fIjzyKHL7Q8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Gcjw5SH2Gsk",
+      "title": "Going beyond dualities",
+      "id": "Gcjw5SH2Gsk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=hmYlA8JcjP0",
+      "title": "Sri Ramakrishna was not a Sanyasi",
+      "id": "hmYlA8JcjP0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=hreclrPE8A8",
+      "title": "Bhagavad Gita Chapter 4: How to find out if someone is enlightened",
+      "id": "hreclrPE8A8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=iBQife3dumY&feature=youtu.be",
+      "title": "Get back to Witnessing Consciousness",
+      "id": "iBQife3dumY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=IDtRZiGs2rk&feature=youtu.be",
+      "title": "Stop hurting your kids",
+      "id": "IDtRZiGs2rk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=IoZvCtBdkjA",
+      "title": "Don't Believe, Just Experience! Bhagavad Gita by Nithyananda",
+      "id": "IoZvCtBdkjA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=jJODdjhFqhs",
+      "title": "Developing Intuition",
+      "id": "jJODdjhFqhs"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=jMxKTvkYLdc&t=6s",
+      "title": "Losing weight vedic way",
+      "id": "jMxKTvkYLdc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Joq7yhXLNE0",
+      "title": "The Original Sin - Short Nithyananda Videos",
+      "id": "Joq7yhXLNE0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=KCokm_R7x40",
+      "title": "Identifying An Enlightened Being",
+      "id": "KCokm_R7x40"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=kFZdNyb4CEk",
+      "title": "We don't need Secularism Brahma Sutras 26th Aug 2011",
+      "id": "kFZdNyb4CEk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=KzNA2-cipCw",
+      "title": "Kill your inner demons",
+      "id": "KzNA2-cipCw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=L5LRUx4S2rY",
+      "title": "Being Unclutched",
+      "id": "L5LRUx4S2rY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Lb3ne3f_rkE",
+      "title": "Being Contented",
+      "id": "Lb3ne3f_rkE"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=lkpjePEYdoA",
+      "title": "May You Never Deny the Existence of Consciousness",
+      "id": "lkpjePEYdoA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Spectrum Analysis of Karma Short Nithyananda Videos",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=loGN2UAipTw",
+      "title": "Stopping indulging in your weaknesses",
+      "id": "loGN2UAipTw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Lttxrkcznn0",
+      "title": "Enjoy your Desires",
+      "id": "Lttxrkcznn0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ma1j8KCFGdo",
+      "title": "Getting Enlightenment experience instantly",
+      "id": "ma1j8KCFGdo"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=meJvii7XJtw",
+      "title": "Stop Collecting Negativity",
+      "id": "meJvii7XJtw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=mo2cliTFcZE",
+      "title": "Understanding effects of thoughts",
+      "id": "mo2cliTFcZE"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=mOtIz1C-3yg",
+      "title": "Understanding Your Uniqueness",
+      "id": "mOtIz1C-3yg"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=MPyG2a7CoeE",
+      "title": "You Only Remember People Who Disturb You - Short Nithyananda Videos",
+      "id": "MPyG2a7CoeE"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=mQ8fiWEyWfo",
+      "title": "Being a high achiever",
+      "id": "mQ8fiWEyWfo"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=mramLfLzVS4",
+      "title": "Going Beyond Societal Beliefs",
+      "id": "mramLfLzVS4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=N1zU-TmFZ_E",
+      "title": "Solving Problems",
+      "id": "N1zU-TmFZ_E"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=n9tDF38yty0",
+      "title": "Being raised by an Incarnation",
+      "id": "n9tDF38yty0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=NjTgBOVXmKc",
+      "title": "Radiating all auspicious patterns",
+      "id": "NjTgBOVXmKc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=NTpyNZ9f5uA",
+      "title": "Planning life",
+      "id": "NTpyNZ9f5uA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=nuN9WNAJweQ",
+      "title": "Getting control over mind",
+      "id": "nuN9WNAJweQ"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=O35rsBNC70w",
+      "title": "Getting liberation from sufferings",
+      "id": "O35rsBNC70w"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=O7hcsF8d9Oc",
+      "title": "Spiritual healing",
+      "id": "O7hcsF8d9Oc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=OiTGSioljzc",
+      "title": "Removing engraved memories",
+      "id": "OiTGSioljzc"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ORGTUXEdY5M",
+      "title": "Developing leadership consciousness",
+      "id": "ORGTUXEdY5M"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=OXGYcnAiwQY",
+      "title": "Ego Vs Upanishad",
+      "id": "OXGYcnAiwQY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=OzkRsgHAG5A",
+      "title": "Getting ultimate solutions",
+      "id": "OzkRsgHAG5A"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=PaaE_6d-fqo",
+      "title": "Is Enlightenment Beyond Karma Nithyananda Short Videos",
+      "id": "PaaE_6d-fqo"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=PeVYcZqlkUE&feature=youtu.be",
+      "title": "Understand your past Unlock your future Nithyananda Short Video",
+      "id": "PeVYcZqlkUE"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=PIuvfB7eNC4",
+      "title": "Understanding Your Duties",
+      "id": "PIuvfB7eNC4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=PmGe-yzmbXw",
+      "title": "Being Immortal",
+      "id": "PmGe-yzmbXw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=PyddwZkCNa0",
+      "title": "Transforming yourself",
+      "id": "PyddwZkCNa0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=q_Y3iA-mSBQ",
+      "title": "Differentiating between Enlightened master and Incarnation",
+      "id": "q_Y3iA-mSBQ"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=q5KVtWhfYFY&t=14s",
+      "title": "Women and Spirituality",
+      "id": "q5KVtWhfYFY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=qd9ZepBgAUk",
+      "title": "Handling responsibilities tirelessly",
+      "id": "qd9ZepBgAUk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=QGTmF6C8dKA",
+      "title": "Enjoying your desires",
+      "id": "QGTmF6C8dKA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=QjcGLhkAhGU&feature=youtu.be",
+      "title": "Having perfect health",
+      "id": "QjcGLhkAhGU"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=RBn8NHSC4jM",
+      "title": "Power, Greed and Freedom",
+      "id": "RBn8NHSC4jM"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=rEVpaGys_0s",
+      "title": "Transforming now",
+      "id": "rEVpaGys_0s"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=rf3wVh_ra-0",
+      "title": "Dissolving all your karmas",
+      "id": "rf3wVh_ra-0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=RZ26FZhBheA",
+      "title": "Staying away from depression",
+      "id": "RZ26FZhBheA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=s70RcakFofk&feature=youtu.be",
+      "title": "Being intense in spiritual practice",
+      "id": "s70RcakFofk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=s70RcakFofk&feature=plcp",
+      "title": "How can I be more intense in my spiritual practise?",
+      "id": "s70RcakFofk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=SLLJw4bQouM&feature=youtu.be",
+      "title": "State of Enlightenment or Jivan Mukthi",
+      "id": "SLLJw4bQouM"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=SvUkAwOaJd4",
+      "title": "Overcoming Fear",
+      "id": "SvUkAwOaJd4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ThBOAIAJw9A",
+      "title": "Logic highlights your ignorance",
+      "id": "ThBOAIAJw9A"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=TlkFuZBhbQA",
+      "title": "Understanding the Space - Short Nithyananda Videos",
+      "id": "TlkFuZBhbQA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=TN15gYqYdf4&feature=youtu.be",
+      "title": "Extending your capacity",
+      "id": "TN15gYqYdf4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=UEni11nhIa8https://www.youtube.com/watch?v=UEni11nhIa8",
+      "title": "Pain & Suffering -The Powerful Master for non-possessiveness",
+      "id": "UEni11nhIa8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=UIE5ZLMeapw",
+      "title": "Having Freedom In Life",
+      "id": "UIE5ZLMeapw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ukHx7uSDgPA",
+      "title": "Working towards self development",
+      "id": "ukHx7uSDgPA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=uqWU3iccv9Y",
+      "title": "Coming out of procrastination and laziness",
+      "id": "uqWU3iccv9Y"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=uR9rOpcgeTw",
+      "title": "Developing Intensity",
+      "id": "uR9rOpcgeTw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Ut777r2El8U&t=2s",
+      "title": "Just Drop your Ideas about You Brahma Sutras 27th Aug 2011",
+      "id": "Ut777r2El8U"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=uYkN-LMozRI",
+      "title": "Interpreting your Deja Vu experiences",
+      "id": "uYkN-LMozRI"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=VIe15stoqWs&feature=plcp",
+      "title": "How can I heal chronic fatigue?",
+      "id": "VIe15stoqWs"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=vOprXmXcaTw",
+      "title": "Taking up Conscious Responsibility",
+      "id": "vOprXmXcaTw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=vvonj_Ymg24",
+      "title": "Thinking also enlightenment",
+      "id": "vvonj_Ymg24"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=WBrVnXeZub0",
+      "title": "Enjoying the World",
+      "id": "WBrVnXeZub0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=wdbClVGT6yg",
+      "title": "Achieving fulfillment in work life",
+      "id": "wdbClVGT6yg"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=WGkPHh6SdRs",
+      "title": "Escaping Mind Pressure",
+      "id": "WGkPHh6SdRs"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "Discovering your life's pupose",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "How can I discover my lifeʼs purpose and mission?",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=wKxXpV9GRa8",
+      "title": "Creating An Enlightened Society",
+      "id": "wKxXpV9GRa8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=X6u7c8_Wk5c",
+      "title": "Mastering your senses",
+      "id": "X6u7c8_Wk5c"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=X9s36E8xghQ",
+      "title": "Making Visualization a Reality",
+      "id": "X9s36E8xghQ"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=xKxfujOZPuY",
+      "title": "Getting enlightened through knowledge",
+      "id": "xKxfujOZPuY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=xTSHvVbwOSI",
+      "title": "Awakening Kundalini Using Straight Technique",
+      "id": "xTSHvVbwOSI"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=y1Hr8ngp18U",
+      "title": "Leading life authentically",
+      "id": "y1Hr8ngp18U"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=yAlCNgoqDR4",
+      "title": "Life is eternal expansion Bhagavad Gita By Nithyananda",
+      "id": "yAlCNgoqDR4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=YzCHVJHEzi8",
+      "title": "Awakening your dimensions",
+      "id": "YzCHVJHEzi8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4cK_t3kZDY",
+      "title": "Indentify your inner space",
+      "id": "Z4cK_t3kZDY"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4vRSoFO4Z8",
+      "title": "Overcoming Fantasies",
+      "id": "Z4vRSoFO4Z8"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ziB0SFBotEk",
+      "title": "Vedic Time Management Short Nithyananda Videos",
+      "id": "ziB0SFBotEk"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=Zk26nsAzB6o",
+      "title": "Experiencing ultimate joy as a disciple",
+      "id": "Zk26nsAzB6o"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=ZSR8sHlW_m0&feature=youtu.be",
+      "title": "Can enlightenment dissolve all karmas Short Nithyananda Videos",
+      "id": "ZSR8sHlW_m0"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://www.youtube.com/watch?v=zUitNkWhOLw",
+      "title": "Overcoming emotional reactions",
+      "id": "zUitNkWhOLw"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/NkU8IxP8IkA",
+      "title": "Achieving reality without expectations",
+      "id": "NkU8IxP8IkA"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/_WNgbnbD5KI",
+      "title": "Altering according to society",
+      "id": "_WNgbnbD5KI"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/Nu4-64AN-b4",
+      "title": "Being mortal or immortal",
+      "id": "Nu4-64AN-b4"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/nEStdN-eYaQ",
+      "title": "Breath The Bridge between You and the Universe",
+      "id": "nEStdN-eYaQ"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/_axPNJwNw5k",
+      "title": "Field of Consciousness Short Nithyananda Videos",
+      "id": "_axPNJwNw5k"
+    },
+    {
+      "category": "Spirituality",
+      "videoUrl": "https://youtu.be/W_M2_SIj66w",
+      "title": "How can I control strong emotions like anger?",
+      "id": "W_M2_SIj66w"
+    }
+  ],
+  "Wealth & Debt": [
+    {
+      "category": "Wealth & Debt",
+      "videoUrl": "https://www.youtube.com/watch?v=AieqLpmEfSE&feature=youtu.be",
+      "title": "Attracting wealth",
+      "id": "AieqLpmEfSE"
+    },
+    {
+      "category": "Wealth & Debt",
+      "videoUrl": "https://www.youtube.com/watch?v=B2_twFXQoIw&feature=youtu.be",
+      "title": "Overcoming guilt of wealth creation",
+      "id": "B2_twFXQoIw"
+    }
+  ],
+  "Youth": [
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=2UpK7FZ4JYY&feature=plcp",
+      "title": "How can I be refreshed and feel rejuvenated daily?",
+      "id": "2UpK7FZ4JYY"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=7GDUo8PIENw",
+      "title": "Growing the ability to learn",
+      "id": "7GDUo8PIENw"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=9OeBdl9CaJQ",
+      "title": "Owning your time",
+      "id": "9OeBdl9CaJQ"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=amTaMnFLGFw",
+      "title": "Lose to win and why we repeat our Mistakes",
+      "id": "amTaMnFLGFw"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=bv6L2f2SeSo&feature=plcp",
+      "title": "How do I like the way I look physically?",
+      "id": "bv6L2f2SeSo"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=C6zUKvd-DSc",
+      "title": "Your senses reflect consciousness",
+      "id": "C6zUKvd-DSc"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=cdV-Pc06V8U",
+      "title": "Liberating Birth and Death",
+      "id": "cdV-Pc06V8U"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=d0FHVuEGYv0",
+      "title": "Stopping clinging to rewards",
+      "id": "d0FHVuEGYv0"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=eIZYjOya7sg&feature=youtu.be",
+      "title": "Hard Work - Short Nithyananda Videos",
+      "id": "eIZYjOya7sg"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=IDtRZiGs2rk&feature=youtu.be",
+      "title": "Stop hurting your kids",
+      "id": "IDtRZiGs2rk"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=IoZvCtBdkjA",
+      "title": "Don't Believe, Just Experience! Bhagavad Gita by Nithyananda",
+      "id": "IoZvCtBdkjA"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=jsFCemYji0E",
+      "title": "Growing consciously with time",
+      "id": "jsFCemYji0E"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=k0sVDMOIPYg",
+      "title": "Stopping lifestyle affecting your life",
+      "id": "k0sVDMOIPYg"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=kcxCmB0S-mo",
+      "title": "Having perfection in actions",
+      "id": "kcxCmB0S-mo"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=Lttxrkcznn0",
+      "title": "Enjoy your Desires",
+      "id": "Lttxrkcznn0"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=ma1j8KCFGdo",
+      "title": "Getting Enlightenment experience instantly",
+      "id": "ma1j8KCFGdo"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=meJvii7XJtw",
+      "title": "Stop Collecting Negativity",
+      "id": "meJvii7XJtw"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=mo2cliTFcZE",
+      "title": "Understanding effects of thoughts",
+      "id": "mo2cliTFcZE"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=mramLfLzVS4",
+      "title": "Going Beyond Societal Beliefs",
+      "id": "mramLfLzVS4"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=mWfMAIM7QcQ",
+      "title": "Educating your Teenage kids",
+      "id": "mWfMAIM7QcQ"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=N1zU-TmFZ_E",
+      "title": "Solving Problems",
+      "id": "N1zU-TmFZ_E"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=nhute7wb-Js&feature=youtu.be",
+      "title": "You are a Creator",
+      "id": "nhute7wb-Js"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=NjTgBOVXmKc",
+      "title": "Radiating all auspicious patterns",
+      "id": "NjTgBOVXmKc"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=NTpyNZ9f5uA",
+      "title": "Planning life",
+      "id": "NTpyNZ9f5uA"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=nuN9WNAJweQ",
+      "title": "Getting control over mind",
+      "id": "nuN9WNAJweQ"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=PeVYcZqlkUE&feature=youtu.be",
+      "title": "Understand your past Unlock your future Nithyananda Short Video",
+      "id": "PeVYcZqlkUE"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=PIuvfB7eNC4",
+      "title": "Understanding Your Duties",
+      "id": "PIuvfB7eNC4"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=qd9ZepBgAUk",
+      "title": "Handling responsibilities tirelessly",
+      "id": "qd9ZepBgAUk"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=QGTmF6C8dKA",
+      "title": "Enjoying your desires",
+      "id": "QGTmF6C8dKA"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=QjcGLhkAhGU&feature=youtu.be",
+      "title": "Having perfect health",
+      "id": "QjcGLhkAhGU"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=rEVpaGys_0s",
+      "title": "Transforming now",
+      "id": "rEVpaGys_0s"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=RZ26FZhBheA",
+      "title": "Staying away from depression",
+      "id": "RZ26FZhBheA"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=TN15gYqYdf4&feature=youtu.be",
+      "title": "Extending your capacity",
+      "id": "TN15gYqYdf4"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=UEni11nhIa8https://www.youtube.com/watch?v=UEni11nhIa8",
+      "title": "Pain & Suffering -The Powerful Master for non-possessiveness",
+      "id": "UEni11nhIa8"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=ukHx7uSDgPA",
+      "title": "Working towards self development",
+      "id": "ukHx7uSDgPA"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=vOprXmXcaTw",
+      "title": "Taking up Conscious Responsibility",
+      "id": "vOprXmXcaTw"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=WBrVnXeZub0",
+      "title": "Enjoying the World",
+      "id": "WBrVnXeZub0"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=WGkPHh6SdRs",
+      "title": "Escaping Mind Pressure",
+      "id": "WGkPHh6SdRs"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "Discovering your life's pupose",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=wkGZITCwBJk&feature=plcp",
+      "title": "How can I discover my lifeʼs purpose and mission?",
+      "id": "wkGZITCwBJk"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=X6u7c8_Wk5c",
+      "title": "Mastering your senses",
+      "id": "X6u7c8_Wk5c"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=X9s36E8xghQ",
+      "title": "Making Visualization a Reality",
+      "id": "X9s36E8xghQ"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=y1Hr8ngp18U",
+      "title": "Leading life authentically",
+      "id": "y1Hr8ngp18U"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4cK_t3kZDY",
+      "title": "Indentify your inner space",
+      "id": "Z4cK_t3kZDY"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=Z4vRSoFO4Z8",
+      "title": "Overcoming Fantasies",
+      "id": "Z4vRSoFO4Z8"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=Zk26nsAzB6o",
+      "title": "Experiencing ultimate joy as a disciple",
+      "id": "Zk26nsAzB6o"
+    },
+    {
+      "category": "Youth",
+      "videoUrl": "https://www.youtube.com/watch?v=zUitNkWhOLw",
+      "title": "Overcoming emotional reactions",
+      "id": "zUitNkWhOLw"
+    }
+  ],
+  "108Pearls": [
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/ShyTKwsjzV0",
+      "title": "Death Experience",
+      "id": "ShyTKwsjzV0"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/IZxmZSecXVk",
+      "title": "Arunagiri Yogishwara",
+      "id": "IZxmZSecXVk"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/JIqQK62XfuY",
+      "title": "Fear",
+      "id": "JIqQK62XfuY"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/k-JCZc7CmjU",
+      "title": "Suffering",
+      "id": "k-JCZc7CmjU"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/v8MOPIX2s14",
+      "title": "Enlightenment",
+      "id": "v8MOPIX2s14"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/DQTr1EWsCpM",
+      "title": "Lust to Love",
+      "id": "DQTr1EWsCpM"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/K6PxK65QXYo",
+      "title": "Karma",
+      "id": "K6PxK65QXYo"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/ey9FIpn75A8",
+      "title": "Human Levitation the ancient vedic science revealed by Nithyananda",
+      "id": "ey9FIpn75A8"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/8Gdex3s9oHE",
+      "title": "Lion Cub",
+      "id": "8Gdex3s9oHE"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/z3dzNjpBXik",
+      "title": "Memory",
+      "id": "z3dzNjpBXik"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/ALSmws20ayU",
+      "title": "Technology of Extraordinary Powers Samyama",
+      "id": "ALSmws20ayU"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/yCue64mkcn4",
+      "title": "Enlightening Education System (Gurukul)",
+      "id": "yCue64mkcn4"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/RGopvbTEAOY",
+      "title": "Surrender",
+      "id": "RGopvbTEAOY"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/i3eRyiTPSnE",
+      "title": "Patterns",
+      "id": "i3eRyiTPSnE"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/bvF6DUQsrkc",
+      "title": "Materialization Teleportation",
+      "id": "bvF6DUQsrkc"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/tQ64cnyp-Fs",
+      "title": "Love",
+      "id": "tQ64cnyp-Fs"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/FmDPhGm5j6c",
+      "title": "Intensity",
+      "id": "FmDPhGm5j6c"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/anNgWLIp9Wg",
+      "title": "Guru",
+      "id": "anNgWLIp9Wg"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/XMP82I8lzUU",
+      "title": "eN Effect",
+      "id": "XMP82I8lzUU"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/wdKF1BK1Kas",
+      "title": "Conflict Free Living",
+      "id": "wdKF1BK1Kas"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/qmxvLcI7P34",
+      "title": "Birth Death",
+      "id": "qmxvLcI7P34"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/xYsP5v7FGeU",
+      "title": "Awakening DNA",
+      "id": "xYsP5v7FGeU"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/IR6P0_BBfXI",
+      "title": "Asanas",
+      "id": "IR6P0_BBfXI"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/F4WpzZy253Y",
+      "title": "Spiritual Healing",
+      "id": "F4WpzZy253Y"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/WTn3dDp9-EQ",
+      "title": "Gratitude",
+      "id": "WTn3dDp9-EQ"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/u3k5bAmS-Wg",
+      "title": "Science of Action Karma Yoga",
+      "id": "u3k5bAmS-Wg"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/ATVp__L8t8k",
+      "title": "Science of Breath Pranayama",
+      "id": "ATVp__L8t8k"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/nMkgZopCc8E",
+      "title": "Yogic Body and Vedic Mind2",
+      "id": "nMkgZopCc8E"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/6ZowJzunTNY",
+      "title": "Unclutching",
+      "id": "6ZowJzunTNY"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/0FR2uCj-VDQ",
+      "title": "Experimenting with the Truths",
+      "id": "0FR2uCj-VDQ"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/gqrhfBkS8kE",
+      "title": "Feeling Connection",
+      "id": "gqrhfBkS8kE"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/OrXtcMNCOb8",
+      "title": "Time",
+      "id": "OrXtcMNCOb8"
+    },
+    {
+      "category": "108Pearls",
+      "videoUrl": "https://youtu.be/I7yEBXtBeg8",
+      "title": "Living Enlightenment",
+      "id": "I7yEBXtBeg8"
+    }
+  ],
+  "onenessCapsules": [
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=e0lokQlKYp0",
+      "title": "Paramashivoham Oneness Capsule 237 (Happenings of 27July 2017)",
+      "id": "e0lokQlKYp0"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=9IbbSc4YjXI",
+      "title": "Paramashivoham Oneness Capsule 233 (Happenings of 07 June 2016)",
+      "id": "9IbbSc4YjXI"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=6hvFgWM1q_8",
+      "title": "Paramashivoham Oneness Capsule 232 (Happening of 03 March 2017)",
+      "id": "6hvFgWM1q_8"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=NeDx4QHdKzA",
+      "title": "Paramashivoham Oneness Capsule - 231 (Shivaratri MoolavarAbhishekam, 10MAR2013)",
+      "id": "NeDx4QHdKzA"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=vcVMPl7dS_4",
+      "title": "Paramashivoham Oneness Capsule 227 (30 December 2017 happenings)",
+      "id": "vcVMPl7dS_4"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=WndM9cAlbI8",
+      "title": "Paramashivoham Oneness Capsule 226 (09 July 2017 happenings)",
+      "id": "WndM9cAlbI8"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=8ZNTMequ5Ao",
+      "title": "Paramashivoham Oneness Capsule 225 (20 October 2017 happenings)",
+      "id": "8ZNTMequ5Ao"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=Q5lIz0jIERk",
+      "title": "Paramashivoham Oneness Capsule 224 (05 December 2016 happenings)",
+      "id": "Q5lIz0jIERk"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=rAkm3r4aGsg",
+      "title": "Paramashivoham Oneness Capsule 223 (26 August 2017 happenings)",
+      "id": "rAkm3r4aGsg"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=Kz0rftrge2E",
+      "title": "Paramashivoham Oneness Capsule 222 (29 July 2017 happenings)",
+      "id": "Kz0rftrge2E"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=R0VEZXkXroA",
+      "title": "Paramashivoham Oneness Capsule 221 (17 July 2017 happenings)",
+      "id": "R0VEZXkXroA"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=QoiznrMHM3w",
+      "title": "Paramashivoham Oneness Capsule 220 (18 May 2017 happenings)",
+      "id": "QoiznrMHM3w"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=Y8eRXVKhgRw",
+      "title": "Paramashivoham Oneness Capsule 218 (03 Jul 2013 happenings)",
+      "id": "Y8eRXVKhgRw"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=XBaGYwB-0rw",
+      "title": "Paramashivoham Oneness Capsule 217 (02 August 2017 happenings)",
+      "id": "XBaGYwB-0rw"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=Tg8WEe2q1YE",
+      "title": "Paramashivoham Oneness Capsule 216 (18 November 2014 happenings)",
+      "id": "Tg8WEe2q1YE"
+    },
+    {
+      "category": "OnenessCapsules",
+      "videoUrl": "https://www.youtube.com/watch?v=eSR6MtmPTrQ",
+      "title": "Paramashivoham Oneness Capsule 215 (10 August 2017 Tulabharam offering)",
+      "id": "eSR6MtmPTrQ"
+    }
+  ]
 }

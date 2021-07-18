@@ -1,27 +1,39 @@
 {
   "data": [
     {
-      "id": "shiva_sutra",
-      "title": "Shiva Sutra",
-      "description": "The Secrets of yogi",
+      "id": "Youth",
+      "title": "Youth",
+      "description": "",
       "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
     },
     {
-      "id": "yoga_sutra",
-      "title": "Yoga Sutra",
-      "description": "Secrets of yoga",
+      "id": "Relationship",
+      "title": "Relationship",
+      "description": "",
       "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
     },
     {
-      "id": "bhagavad_geetha",
-      "title": "Bhagavad Geetha",
-      "description": "Lord Krishna's teachings",
-      "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
-    },
-    {
-      "id": "career",
+      "id": "Career",
       "title": "Career",
-      "description": "Getting control over mind",
+      "description": "",
+      "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
+    },
+    {
+      "id": "Spirituality",
+      "title": "Spirituality",
+      "description": "",
+      "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
+    },
+    {
+      "id": "Life and Death",
+      "title": "Life and Death",
+      "description": "",
+      "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
+    },
+    {
+      "id": "Wealth & Debt",
+      "title": "Wealth & Debt",
+      "description": "",
       "imageUrl": "https://spiderimg.amarujala.com/assets/images/2018/09/20/750x506/swami-nithyananda_1537428550.jpeg"
     }
   ]
