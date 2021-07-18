@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -74,22 +73,20 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
 
   @override
   Widget build(BuildContext context) {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.light,
-      child: SafeArea(
-        child: BlocListener<VideoPlayerCubit, VideoPlayerState>(
-          listener: _blocListener,
-          child: YoutubePlayerBuilder(
-            player: YoutubePlayer(
-              controller: _controller,
-              showVideoProgressIndicator: true,
-              topActions: <Widget>[
-                const SizedBox(width: 4.0),
-                const PlayerTopActions(),
-              ],
-            ),
-            builder: (ctx, player) => VideoPlayerPageBody(player: player),
+    return SafeArea(
+      bottom: false,
+      child: BlocListener<VideoPlayerCubit, VideoPlayerState>(
+        listener: _blocListener,
+        child: YoutubePlayerBuilder(
+          player: YoutubePlayer(
+            controller: _controller,
+            showVideoProgressIndicator: true,
+            topActions: <Widget>[
+              const SizedBox(width: 4.0),
+              const PlayerTopActions(),
+            ],
           ),
+          builder: (ctx, player) => VideoPlayerPageBody(player: player),
         ),
       ),
     );
