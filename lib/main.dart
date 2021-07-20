@@ -2,8 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:nlighten/app_environments.dart';
 import 'package:nlighten/locator.dart';
+import 'package:nlighten/modules/history/hive_watch_history.dart';
 import 'package:nlighten/nlighten.dart';
 
 void main() async {
@@ -25,6 +27,14 @@ void main() async {
 
 initialiseApplication() async {
   setupLocator(AppEnvironment.local);
+
+  await Hive.initFlutter();
+
+  Hive.registerAdapter(HiveWatchHistoryAdapter());
+
+  Hive.registerAdapter(HiveVideoModelAdapter());
+
+  await Hive.openBox<HiveWatchHistory>('watchhistory');
 
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 

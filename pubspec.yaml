@@ -14,11 +14,15 @@ dependencies:
   nlighten_domain:
     path: packages/nlighten_domain
   cached_network_image: ^3.1.0
+  carousel_slider: ^4.0.0
   cupertino_icons: ^1.0.2
   flutter_bloc: ^7.0.1
   freezed_annotation: ^0.14.2
   get_it: ^7.2.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
   injectable: ^1.4.1
+  json_annotation: null
   youtube_player_flutter: ^8.0.0
 
 dev_dependencies:
@@ -26,10 +30,11 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.0.6
   flutter_launcher_icons: ^0.9.0
-  flutter_native_splash: null
+  flutter_native_splash:
   freezed: ^0.14.2
+  hive_generator: ^1.1.0
   injectable_generator: ^1.4.1
-  lint: ^1.5.3
+  json_serializable: null
 
 flutter_icons:
   android: "launcher_icon"

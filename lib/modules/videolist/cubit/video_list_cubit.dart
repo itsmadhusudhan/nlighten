@@ -19,7 +19,6 @@ class VideoListCubit extends Cubit<VideoListState> {
         await _videoRepository.fetchAllVideos('lib/assets/data/videos.json');
 
     final Map<String, List<VideoModel>> _list = {};
-
     for (final key in result.keys) {
       final videos = result[key] != null
           ? result[key]

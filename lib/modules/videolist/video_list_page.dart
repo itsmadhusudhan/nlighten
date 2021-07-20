@@ -56,7 +56,7 @@ class VideoListPage extends StatelessWidget {
                 .loadPlayList(video: _video, playlist: videos);
             // context.read<VideoPlayerCubit>().playVideo(videos[index]);
 
-            VideoPlayerPage.pushVideoListPageRoute(context, video: _video);
+            VideoPlayerPage.pushVideoListPageRoute(context);
           },
         );
       },

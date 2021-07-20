@@ -1,6 +1,9 @@
+import 'package:flutter/material.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 
 class Routes {
+  static final rootRouteObserver = RouteObserver<ModalRoute>();
+
   static const String root = "/";
 
   static const String homeRoute = "/home";

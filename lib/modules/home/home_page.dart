@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nlighten/modules/explore/explore_page.dart';
-import 'package:nlighten/modules/history/watch_history.dart';
+import 'package:nlighten/modules/history/watch_history_page.dart';
 import 'widget/widgets.dart';
 
 class HomePage extends StatefulWidget {
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
         index: _currentIndex,
         children: [
           const ExplorePage(),
-          const WatchHistory(),
+          const WatchHistoryPage(),
         ],
       ),
       bottomNavigationBar: AppBottomNavigationBar(

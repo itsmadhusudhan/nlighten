@@ -43,8 +43,7 @@ class VideoListCardView extends StatelessWidget {
                 .read<VideoPlayerCubit>()
                 .loadPlayList(video: videos[index], playlist: videos);
 
-            VideoPlayerPage.pushVideoListPageRoute(context,
-                video: videos[index]);
+            VideoPlayerPage.pushVideoListPageRoute(context);
           },
         ),
       ),

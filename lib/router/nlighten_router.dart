@@ -10,8 +10,6 @@ import 'package:nlighten/splash_page.dart';
 class NLightenRouter {
   static String initialRoute = "/";
 
-  static final rootRouteObserver = RouteObserver<ModalRoute>();
-
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     Widget _builder;
 
