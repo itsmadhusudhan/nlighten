@@ -26,8 +26,10 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.0.6
   flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: null
   freezed: ^0.14.2
   injectable_generator: ^1.4.1
+  lint: ^1.5.3
 
 flutter_icons:
   android: "launcher_icon"
@@ -35,9 +37,15 @@ flutter_icons:
   remove_alpha_ios: true
   image_path: "lib/assets/icon/app-icon.png"
 
+flutter_native_splash:
+  color: "#FCCE03"
+
+  image: lib/assets/icon/app-icon.png
+
 flutter:
   uses-material-design: true
 
   assets:
     - lib/assets/
     - lib/assets/data/
+    - lib/assets/icon/
