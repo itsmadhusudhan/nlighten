@@ -1,7 +1,10 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/history/cubit/watch_history_cubit.dart';
+import 'package:nlighten/modules/videolist/widgets/video_list_card.dart';
+import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
 import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
 import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
@@ -79,10 +82,9 @@ class _WatchHistoryPageState extends State<WatchHistoryPage> with RouteAware {
               itemBuilder: (ctx, index) {
                 final history = playlist[index];
 
-                return ListTile(
-                  title: Text(history.video.title),
-                  subtitle: Text(history.video.categoryName),
-                  onTap: () {
+                return VideoListTile(
+                  video: history.video,
+                  onPressed: (id) {
                     context.read<VideoPlayerCubit>().loadPlayList(
                           video: history.video,
                           playlist: playlist.map((e) => e.video).toList(),

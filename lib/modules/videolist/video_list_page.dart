@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
+import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
 import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
 import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
@@ -43,14 +44,9 @@ class VideoListPage extends StatelessWidget {
       itemBuilder: (context, index) {
         final _video = videos[index];
 
-        return ListTile(
-          // leading: Image.network(
-          //   _video.thumbnailUrl,
-          //   fit: BoxFit.cover,
-          // ),
-          leading: Icon(Icons.personal_video),
-          title: Text(_video.title),
-          onTap: () {
+        return VideoListTile(
+          video: _video,
+          onPressed: (id) {
             context
                 .read<VideoPlayerCubit>()
                 .loadPlayList(video: _video, playlist: videos);
