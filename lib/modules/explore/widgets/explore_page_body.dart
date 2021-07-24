@@ -12,7 +12,7 @@ class ExplorePageBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          const HeroSlider(),
+          HeroSlider(),
           const SizedBox(
             height: 20,
           ),
