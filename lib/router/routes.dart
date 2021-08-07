@@ -6,6 +6,8 @@ class Routes {
 
   static const String root = "/";
 
+  static const String rootRoute = "/root";
+
   static const String homeRoute = "/home";
 
   static const String exploreRoute = "/home/explore";

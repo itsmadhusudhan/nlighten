@@ -2,37 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/history/cubit/watch_history_cubit.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
-import 'package:nlighten/router/routes.dart';
-import 'widgets/widgets.dart';
+import 'package:nlighten/modules/videoplayer/bloc/player/video_player_cubit.dart';
+import 'package:nlighten/modules/videoplayer/video_player_view.dart';
+import 'package:nlighten/modules/videoplayer/youtube_service.dart';
 
 class VideoPlayerPage extends StatefulWidget {
-  const VideoPlayerPage({
-    Key? key,
-  }) : super(key: key);
-
-  static pushVideoListPageRoute(BuildContext context) {
-    Navigator.of(context).pushNamed(Routes.videoPlayerRoute);
-  }
+  const VideoPlayerPage({Key? key}) : super(key: key);
 
   @override
   _VideoPlayerPageState createState() => _VideoPlayerPageState();
 }
 
-class _VideoPlayerPageState extends State<VideoPlayerPage> with RouteAware {
-  late YoutubePlayerController _controller;
-
+class _VideoPlayerPageState extends State<VideoPlayerPage> {
   late VideoPlayerCubit _videoPlayerCubit;
 
+  late YoutubeService _youtubeService;
+
   late WatchHistoryCubit _watchHistoryCubit;
-
-  @override
-  void didChangeDependencies() {
-    Routes.rootRouteObserver.subscribe(this, ModalRoute.of(context)!);
-
-    super.didChangeDependencies();
-  }
 
   @override
   void initState() {
@@ -40,77 +26,74 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> with RouteAware {
 
     _watchHistoryCubit = context.read<WatchHistoryCubit>();
 
-    _controller = YoutubePlayerController(
-      initialVideoId: _videoPlayerCubit.state.selectedVideo!.id,
-      flags: YoutubePlayerFlags(
-        autoPlay: true,
-        enableCaption: false,
-      ),
+    _youtubeService = YoutubeService(
+      _videoPlayerCubit.state.selectedVideo!.id,
     );
+
+    // playerExpandProgress.addListener(() {
+    //   print(playerExpandProgress.value);
+
+    //   if (playerExpandProgress.value <= minHeight + 100) {
+    //     print("printing");
+
+    //     _youtubeService.controller.fitWidth(Size(180, 100));
+
+    //     _youtubeService.controller.fitHeight(Size(180, 100));
+    //   } else {
+    //     _youtubeService.controller.fitWidth(Size(180, 100));
+
+    //     _youtubeService.controller.fitHeight(Size(180, 100));
+    //   }
+    // });
 
     super.initState();
   }
 
-  @override
-  void deactivate() {
-    // Pauses video while navigating to next page.
-    _controller.pause();
+  // @override
+  // void deactivate() {
+  //   // Pauses video while navigating to next page.
+  //   _youtubeService.pause();
 
-    super.deactivate();
-  }
+  //   super.deactivate();
+  // }
 
   @override
   void dispose() {
-    _watchHistoryCubit.saveToHistory(
-      video: _videoPlayerCubit.state.selectedVideo!,
-    );
+    print("disposing player...");
 
-    _videoPlayerCubit.clearPlayList();
+    if (_videoPlayerCubit.state.selectedVideo != null) {
+      _youtubeService.pause();
 
-    _controller.dispose();
+      _watchHistoryCubit.saveToHistory(
+        video: _videoPlayerCubit.state.selectedVideo!,
+      );
 
-    Routes.rootRouteObserver.unsubscribe(this);
+      _videoPlayerCubit.clearPlayList();
+
+      _youtubeService.dispose();
+    }
 
     super.dispose();
   }
 
-  @override
-  void didPush() {
-    context.read<WatchHistoryCubit>().saveToHistory(
-          video: context.read<VideoPlayerCubit>().state.selectedVideo!,
-        );
+  // we are loading the selected videos here
+  void _blocListener(BuildContext context, VideoPlayerState state) {
+    if (state.selectedVideo != null) {
+      _watchHistoryCubit.saveToHistory(
+        video: _videoPlayerCubit.state.selectedVideo!,
+      );
 
-    super.didPush();
-  }
-
-  void _blocListener(context, state) {
-    final _videoId = state.selectedVideo!.id;
-
-    final _previousVideoId = _controller.metadata.videoId;
-
-    if (_videoId != _previousVideoId) {
-      _controller.load(state.selectedVideo!.id as String);
+      _youtubeService.loadVideo(state.selectedVideo!);
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      bottom: false,
-      child: BlocListener<VideoPlayerCubit, VideoPlayerState>(
-        listener: _blocListener,
-        child: YoutubePlayerBuilder(
-          player: YoutubePlayer(
-            controller: _controller,
-            showVideoProgressIndicator: true,
-            topActions: <Widget>[
-              const SizedBox(width: 4.0),
-              const PlayerTopActions(),
-            ],
-          ),
-          builder: (ctx, player) => VideoPlayerPageBody(player: player),
-        ),
-      ),
+    return BlocListener<VideoPlayerCubit, VideoPlayerState>(
+      listenWhen: (oldState, newState) =>
+          oldState.selectedVideo != newState.selectedVideo,
+      listener: _blocListener,
+      child: VideoPlayerView(youtubeService: _youtubeService),
     );
   }
 }

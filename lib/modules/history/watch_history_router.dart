@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nlighten/modules/home/home_page.dart';
+import 'package:nlighten/modules/history/watch_history_page.dart';
 import 'package:nlighten/router/routes.dart';
-import 'package:nlighten/splash_page.dart';
 
-// ignore: avoid_classes_with_only_static_members
-class NLightenRouter {
+class WatchHistoryRouter {
   static String initialRoute = "/";
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
@@ -13,18 +11,12 @@ class NLightenRouter {
     bool? _fullscreenDialog;
 
     switch (settings.name) {
-      // the splash page will send us to the home page
       case Routes.root:
-        _builder = SplashPage();
-        break;
-
-      // our immediate page after the splash page
-      case Routes.homeRoute:
-        _builder = const HomePage();
+        _builder = const WatchHistoryPage();
         break;
 
       default:
-        _builder = HomePage();
+        _builder = const WatchHistoryPage();
     }
 
     return MaterialPageRoute(

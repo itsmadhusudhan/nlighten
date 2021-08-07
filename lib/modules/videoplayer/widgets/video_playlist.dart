@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
-import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
+import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
 
 class VideoPlaylist extends StatelessWidget {
   const VideoPlaylist({Key? key}) : super(key: key);

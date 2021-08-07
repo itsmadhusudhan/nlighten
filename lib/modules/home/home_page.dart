@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:nlighten/modules/explore/explore_page.dart';
-import 'package:nlighten/modules/history/watch_history_page.dart';
-import 'widget/widgets.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:miniplayer/miniplayer.dart';
+import 'package:nlighten/modules/explore/explore_navigator.dart';
+import 'package:nlighten/modules/history/watch_history_navigator.dart';
+import 'package:nlighten/modules/videoplayer/mini_video_player.dart';
+import 'package:nlighten/modules/home/widget/app_bottom_navigation_bar.dart';
+import 'package:nlighten/modules/videoplayer/utils.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -12,6 +18,8 @@ class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
 
   _onTabChange(int index) {
+    controller.animateToHeight(state: PanelState.MIN);
+
     setState(() {
       _currentIndex = index;
     });
@@ -20,18 +28,35 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
-        sizing: StackFit.expand,
-        index: _currentIndex,
+      body: Stack(
+        fit: StackFit.expand,
         children: [
-          const ExplorePage(),
-          const WatchHistoryPage(),
+          IndexedStack(
+            index: _currentIndex,
+            sizing: StackFit.expand,
+            children: [
+              const ExploreNavigator(),
+              const WatchHistoryNavigator(),
+            ],
+          ),
+          MiniVideoPlayer(),
         ],
       ),
-      bottomNavigationBar: AppBottomNavigationBar(
-        onTabChange: _onTabChange,
-        selectedTab: _currentIndex,
+      bottomNavigationBar: ValueListenableBuilder(
+        valueListenable: playerExpandProgress,
+        builder: (BuildContext context, double height, Widget? child) {
+          return AppBottomNavigationBar(
+            onTabChange: _onTabChange,
+            selectedTab: _currentIndex,
+          );
+        },
       ),
+      // floatingActionButton: FloatingActionButton(
+      //   child: Icon(Icons.storage),
+      //   onPressed: () {
+      //     // context.read<VideoListCubit>().getVideos();
+      //   },
+      // ),
     );
   }
 }

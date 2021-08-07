@@ -21,7 +21,7 @@ class VideoListTile extends StatelessWidget {
     return InkWell(
       onTap: () => onPressed(video.id),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
