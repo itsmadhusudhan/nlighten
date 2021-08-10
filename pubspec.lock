@@ -466,6 +466,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  nlighten_ui:
+    dependency: "direct main"
+    description:
+      path: "packages/nlighten_ui"
+      relative: true
+    source: path
+    version: "0.0.1"
   octo_image:
     dependency: transitive
     description:

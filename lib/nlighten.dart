@@ -8,6 +8,7 @@ import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
 import 'package:nlighten/router/nlighten_router.dart';
 import 'package:nlighten/router/routes.dart';
+import 'package:nlighten_ui/nlighten_ui.dart';
 
 class NLighten extends StatelessWidget {
   const NLighten({Key? key}) : super(key: key);
@@ -33,12 +34,9 @@ class NLighten extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        darkTheme: ThemeData.dark(),
+        darkTheme: NLightenTheme.darkTheme,
         title: 'NLighten',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        // themeMode: ThemeMode.dark,
+        theme: NLightenTheme.lightTheme,
         onGenerateRoute: NLightenRouter.onGenerateRoute,
         initialRoute: NLightenRouter.initialRoute,
         navigatorObservers: [Routes.rootRouteObserver],

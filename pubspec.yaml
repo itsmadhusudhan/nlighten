@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   nlighten_domain:
     path: packages/nlighten_domain
+  nlighten_ui:
+    path: packages/nlighten_ui
   cached_network_image: ^3.1.0
   carousel_slider: ^4.0.0
   cupertino_icons: ^1.0.2
