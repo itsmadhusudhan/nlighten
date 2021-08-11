@@ -1,11 +1,9 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/history/cubit/watch_history_cubit.dart';
-import 'package:nlighten/modules/videolist/widgets/video_list_card.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
-import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
+import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
 import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 
@@ -29,6 +27,8 @@ class _WatchHistoryPageState extends State<WatchHistoryPage> with RouteAware {
   @override
   void didChangeDependencies() {
     Routes.rootRouteObserver.subscribe(this, ModalRoute.of(context)!);
+
+    _watchHistoryCubit.getAllWatchHistory();
 
     super.didChangeDependencies();
   }
@@ -89,8 +89,6 @@ class _WatchHistoryPageState extends State<WatchHistoryPage> with RouteAware {
                           video: history.video,
                           playlist: playlist.map((e) => e.video).toList(),
                         );
-
-                    VideoPlayerPage.pushVideoListPageRoute(context);
                   },
                 );
               });

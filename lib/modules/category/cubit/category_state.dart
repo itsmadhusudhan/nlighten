@@ -8,6 +8,8 @@ class CategoryState with _$CategoryState {
 
   factory CategoryState.error({required String message}) = _CategoryStateError;
 
-  factory CategoryState.success(List<CategoryModel> categories) =
-      _CategoryStateSuccess;
+  factory CategoryState.success(
+    List<CategoryModel> categories,
+    // List audioCategories,
+  ) = _CategoryStateSuccess;
 }

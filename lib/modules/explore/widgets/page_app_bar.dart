@@ -13,6 +13,7 @@ class PageAppBar extends StatelessWidget {
       elevation: 0,
       floating: true,
       pinned: true,
+      automaticallyImplyLeading: false,
     );
   }
 }

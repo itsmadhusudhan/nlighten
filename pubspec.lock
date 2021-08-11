@@ -250,7 +250,7 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.0.1"
+    version: "7.1.0"
   flutter_blurhash:
     dependency: transitive
     description:
@@ -452,6 +452,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  miniplayer:
+    dependency: "direct main"
+    description:
+      name: miniplayer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+2"
   nested:
     dependency: transitive
     description:
@@ -463,6 +470,13 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/nlighten_domain"
+      relative: true
+    source: path
+    version: "0.0.1"
+  nlighten_ui:
+    dependency: "direct main"
+    description:
+      path: "packages/nlighten_ui"
       relative: true
     source: path
     version: "0.0.1"

@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
-import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
+import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
 import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
@@ -39,7 +39,12 @@ class VideoListPage extends StatelessWidget {
       );
     }
 
-    return ListView.builder(
+    return ListView.separated(
+      separatorBuilder: (ctx, index) => Divider(
+        color: Colors.black.withOpacity(0.5),
+        indent: 12,
+        endIndent: 12,
+      ),
       itemCount: videos.length,
       itemBuilder: (context, index) {
         final _video = videos[index];
@@ -50,9 +55,9 @@ class VideoListPage extends StatelessWidget {
             context
                 .read<VideoPlayerCubit>()
                 .loadPlayList(video: _video, playlist: videos);
-            // context.read<VideoPlayerCubit>().playVideo(videos[index]);
 
-            VideoPlayerPage.pushVideoListPageRoute(context);
+            // Navigator.of(context, rootNavigator: true)
+            //     .push(MaterialPageRoute(builder: (ctx) => VideoPlayerPage()));
           },
         );
       },

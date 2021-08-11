@@ -5,8 +5,7 @@ import 'package:nlighten/modules/category/widgets/title_row.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videolist/video_list_page.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_card.dart';
-import 'package:nlighten/modules/videoplayer/cubit/video_player_cubit.dart';
-import 'package:nlighten/modules/videoplayer/video_player_page.dart';
+import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 
 class VideoListCardView extends StatelessWidget {
@@ -37,13 +36,9 @@ class VideoListCardView extends StatelessWidget {
         itemBuilder: (context, index) => VideoListCard(
           video: videos[index],
           onPressed: (id) {
-            // context.read<VideoPlayerCubit>().playVideo(videos[index]);
-
             context
                 .read<VideoPlayerCubit>()
                 .loadPlayList(video: videos[index], playlist: videos);
-
-            VideoPlayerPage.pushVideoListPageRoute(context);
           },
         ),
       ),
