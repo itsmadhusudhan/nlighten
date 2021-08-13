@@ -19,6 +19,8 @@ class Routes {
   static const String categoryListRoute = "/categorylist";
 
   static const String videoPlayerRoute = "/videoPlayer";
+
+  static const String playlistRoute = "/playlist";
 }
 
 class VideoPlayerArgumnets {

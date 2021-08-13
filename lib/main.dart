@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:nlighten/app_environments.dart';
+import 'package:nlighten/constants.dart';
 import 'package:nlighten/locator.dart';
 import 'package:nlighten/modules/history/hive_watch_history.dart';
+import 'package:nlighten/modules/playlist/domain/playlist_dao/playlist_dao.dart';
 import 'package:nlighten/modules/videolist/repositories/local_video.dart';
 import 'package:nlighten/nlighten.dart';
 
@@ -31,13 +33,17 @@ initialiseApplication() async {
 
   await Hive.initFlutter();
 
+  Hive.registerAdapter(PlaylistDaoAdapter());
+
   Hive.registerAdapter(HiveWatchHistoryAdapter());
 
   Hive.registerAdapter(HiveVideoModelAdapter());
 
-  Hive.registerAdapter(LocalVideoAdapter());
+  // preference box
+  await Hive.openBox(Constants.PREFERENCE_BOX);
 
-  await Hive.openBox('preference');
+  // playlist box
+  await Hive.openBox<PlaylistDao>(Constants.PLAYLIST_BOX);
 
   await Hive.openBox<LocalVideo>('videos');
 

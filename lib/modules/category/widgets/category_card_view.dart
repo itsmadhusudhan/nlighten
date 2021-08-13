@@ -27,7 +27,8 @@ class CategoryCardView extends StatelessWidget {
                 title: "Categories",
                 actionText: "See All",
                 onPressed: () {
-                  Navigator.of(context).pushNamed(Routes.categoryListRoute);
+                  // Navigator.of(context).pushNamed(Routes.categoryListRoute);
+                  Navigator.of(context).pushNamed(Routes.playlistRoute);
                 },
               ),
             ),

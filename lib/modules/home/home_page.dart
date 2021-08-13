@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:miniplayer/miniplayer.dart';
 import 'package:nlighten/modules/explore/explore_navigator.dart';
 import 'package:nlighten/modules/history/watch_history_navigator.dart';

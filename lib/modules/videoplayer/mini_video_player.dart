@@ -21,7 +21,6 @@ class _MiniVideoPlayerState extends State<MiniVideoPlayer> {
       builder: (context, state) {
         if (state.selectedVideo != null) {
           return Miniplayer(
-            backgroundColor: Colors.teal,
             duration: Duration(milliseconds: 200),
             valueNotifier: playerExpandProgress,
             controller: controller,
@@ -29,7 +28,6 @@ class _MiniVideoPlayerState extends State<MiniVideoPlayer> {
             maxHeight: MediaQuery.of(context).size.height,
             curve: Curves.easeOut,
             onDismissed: () {},
-            elevation: 6,
             builder: (height, percentage) {
               return VideoPlayerPage();
             },

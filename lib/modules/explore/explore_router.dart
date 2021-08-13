@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nlighten/modules/category/category_list_page.dart';
 import 'package:nlighten/modules/explore/explore_page.dart';
+import 'package:nlighten/modules/playlist/playlist_page.dart';
 import 'package:nlighten/modules/videolist/video_list_page.dart';
-import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 
 class ExploreRouter {
@@ -20,6 +20,10 @@ class ExploreRouter {
 
       case Routes.categoryListRoute:
         _builder = const CategoryListPage();
+        break;
+
+      case Routes.playlistRoute:
+        _builder = const PlaylistPage();
         break;
 
       case Routes.videoListRoute:

@@ -4,6 +4,7 @@ import 'package:nlighten/locator.dart';
 
 import 'package:nlighten/modules/category/cubit/category_cubit.dart';
 import 'package:nlighten/modules/history/cubit/watch_history_cubit.dart';
+import 'package:nlighten/modules/playlist/cubit/playlist_cubit.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videoplayer/bloc/player/video_player_cubit.dart';
 import 'package:nlighten/router/nlighten_router.dart';
@@ -18,6 +19,10 @@ class NLighten extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
+          lazy: false,
+          create: (ctx) => getIt<PlaylistCubit>()..loadAllPlaylists(),
+        ),
+        BlocProvider(
           create: (ctx) => getIt<CategoryCubit>()..getAllCategories(),
         ),
         BlocProvider(
@@ -28,7 +33,6 @@ class NLighten extends StatelessWidget {
           create: (ctx) => getIt<VideoPlayerCubit>(),
         ),
         BlocProvider(
-          lazy: true,
           create: (ctx) => getIt<WatchHistoryCubit>(),
         ),
       ],
