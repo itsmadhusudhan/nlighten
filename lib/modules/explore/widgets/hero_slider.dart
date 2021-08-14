@@ -20,7 +20,7 @@ class HeroSlider extends StatelessWidget {
         autoPlay: true,
         // viewportFraction: 1,
         // enlargeCenterPage: true,
-        viewportFraction: 1.5,
+        viewportFraction: 1.6,
       ),
       itemCount: 2,
       itemBuilder: (BuildContext context, int itemIndex, int pageViewIndex) =>

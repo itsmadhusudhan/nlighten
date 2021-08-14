@@ -80,10 +80,13 @@ class PlaylistPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                         onTap: () {
                           // FIXME: sending dummy argument for now
-                          Navigator.of(context).pushNamed(Routes.videoListRoute,
-                              arguments: VideoCategoryArgumnets(
-                                  categoryId: 'Youth',
-                                  categoryTitle: playlist.title));
+                          Navigator.of(context).pushNamed(
+                            Routes.videoListRoute,
+                            arguments: VideoPlaylistArgumnets(
+                              playlistId: playlist.id,
+                              playlistTitle: playlist.title,
+                            ),
+                          );
                         },
                         child: Container(
                           padding: EdgeInsets.symmetric(

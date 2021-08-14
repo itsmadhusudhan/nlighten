@@ -23,21 +23,23 @@ class _$VideoModelTearOff {
   _VideoModel call(
       {required String id,
       required String title,
-      required String videoUrl,
-      required String thumbnailUrl,
-      required String categoryId,
-      required String categoryName,
+      required String url,
+      @JsonKey(name: "thumbnail") required String thumbnailUrl,
       String? description,
-      DateTime? publishedOn}) {
+      DateTime? publishedOn,
+      String? uploadDate,
+      int? duration,
+      List<int>? playlists}) {
     return _VideoModel(
       id: id,
       title: title,
-      videoUrl: videoUrl,
+      url: url,
       thumbnailUrl: thumbnailUrl,
-      categoryId: categoryId,
-      categoryName: categoryName,
       description: description,
       publishedOn: publishedOn,
+      uploadDate: uploadDate,
+      duration: duration,
+      playlists: playlists,
     );
   }
 
@@ -53,13 +55,18 @@ const $VideoModel = _$VideoModelTearOff();
 mixin _$VideoModel {
   String get id => throw _privateConstructorUsedError;
   String get title => throw _privateConstructorUsedError;
-  String get videoUrl => throw _privateConstructorUsedError;
-  String get thumbnailUrl => throw _privateConstructorUsedError;
-  String get categoryId => throw _privateConstructorUsedError;
-  String get categoryName =>
-      throw _privateConstructorUsedError; // added this so that we dont have to search for it all the time
+  String get url => throw _privateConstructorUsedError;
+  @JsonKey(name: "thumbnail")
+  String get thumbnailUrl =>
+      throw _privateConstructorUsedError; // required String categoryId,
+// required String
+//     categoryName, // added this so that we dont have to search for it all the time
   String? get description => throw _privateConstructorUsedError;
-  DateTime? get publishedOn => throw _privateConstructorUsedError;
+  DateTime? get publishedOn =>
+      throw _privateConstructorUsedError; // might need to make this required later
+  String? get uploadDate => throw _privateConstructorUsedError;
+  int? get duration => throw _privateConstructorUsedError;
+  List<int>? get playlists => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -75,12 +82,13 @@ abstract class $VideoModelCopyWith<$Res> {
   $Res call(
       {String id,
       String title,
-      String videoUrl,
-      String thumbnailUrl,
-      String categoryId,
-      String categoryName,
+      String url,
+      @JsonKey(name: "thumbnail") String thumbnailUrl,
       String? description,
-      DateTime? publishedOn});
+      DateTime? publishedOn,
+      String? uploadDate,
+      int? duration,
+      List<int>? playlists});
 }
 
 /// @nodoc
@@ -95,12 +103,13 @@ class _$VideoModelCopyWithImpl<$Res> implements $VideoModelCopyWith<$Res> {
   $Res call({
     Object? id = freezed,
     Object? title = freezed,
-    Object? videoUrl = freezed,
+    Object? url = freezed,
     Object? thumbnailUrl = freezed,
-    Object? categoryId = freezed,
-    Object? categoryName = freezed,
     Object? description = freezed,
     Object? publishedOn = freezed,
+    Object? uploadDate = freezed,
+    Object? duration = freezed,
+    Object? playlists = freezed,
   }) {
     return _then(_value.copyWith(
       id: id == freezed
@@ -111,21 +120,13 @@ class _$VideoModelCopyWithImpl<$Res> implements $VideoModelCopyWith<$Res> {
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as String,
-      videoUrl: videoUrl == freezed
-          ? _value.videoUrl
-          : videoUrl // ignore: cast_nullable_to_non_nullable
+      url: url == freezed
+          ? _value.url
+          : url // ignore: cast_nullable_to_non_nullable
               as String,
       thumbnailUrl: thumbnailUrl == freezed
           ? _value.thumbnailUrl
           : thumbnailUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      categoryId: categoryId == freezed
-          ? _value.categoryId
-          : categoryId // ignore: cast_nullable_to_non_nullable
-              as String,
-      categoryName: categoryName == freezed
-          ? _value.categoryName
-          : categoryName // ignore: cast_nullable_to_non_nullable
               as String,
       description: description == freezed
           ? _value.description
@@ -135,6 +136,18 @@ class _$VideoModelCopyWithImpl<$Res> implements $VideoModelCopyWith<$Res> {
           ? _value.publishedOn
           : publishedOn // ignore: cast_nullable_to_non_nullable
               as DateTime?,
+      uploadDate: uploadDate == freezed
+          ? _value.uploadDate
+          : uploadDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      duration: duration == freezed
+          ? _value.duration
+          : duration // ignore: cast_nullable_to_non_nullable
+              as int?,
+      playlists: playlists == freezed
+          ? _value.playlists
+          : playlists // ignore: cast_nullable_to_non_nullable
+              as List<int>?,
     ));
   }
 }
@@ -148,12 +161,13 @@ abstract class _$VideoModelCopyWith<$Res> implements $VideoModelCopyWith<$Res> {
   $Res call(
       {String id,
       String title,
-      String videoUrl,
-      String thumbnailUrl,
-      String categoryId,
-      String categoryName,
+      String url,
+      @JsonKey(name: "thumbnail") String thumbnailUrl,
       String? description,
-      DateTime? publishedOn});
+      DateTime? publishedOn,
+      String? uploadDate,
+      int? duration,
+      List<int>? playlists});
 }
 
 /// @nodoc
@@ -170,12 +184,13 @@ class __$VideoModelCopyWithImpl<$Res> extends _$VideoModelCopyWithImpl<$Res>
   $Res call({
     Object? id = freezed,
     Object? title = freezed,
-    Object? videoUrl = freezed,
+    Object? url = freezed,
     Object? thumbnailUrl = freezed,
-    Object? categoryId = freezed,
-    Object? categoryName = freezed,
     Object? description = freezed,
     Object? publishedOn = freezed,
+    Object? uploadDate = freezed,
+    Object? duration = freezed,
+    Object? playlists = freezed,
   }) {
     return _then(_VideoModel(
       id: id == freezed
@@ -186,21 +201,13 @@ class __$VideoModelCopyWithImpl<$Res> extends _$VideoModelCopyWithImpl<$Res>
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as String,
-      videoUrl: videoUrl == freezed
-          ? _value.videoUrl
-          : videoUrl // ignore: cast_nullable_to_non_nullable
+      url: url == freezed
+          ? _value.url
+          : url // ignore: cast_nullable_to_non_nullable
               as String,
       thumbnailUrl: thumbnailUrl == freezed
           ? _value.thumbnailUrl
           : thumbnailUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      categoryId: categoryId == freezed
-          ? _value.categoryId
-          : categoryId // ignore: cast_nullable_to_non_nullable
-              as String,
-      categoryName: categoryName == freezed
-          ? _value.categoryName
-          : categoryName // ignore: cast_nullable_to_non_nullable
               as String,
       description: description == freezed
           ? _value.description
@@ -210,6 +217,18 @@ class __$VideoModelCopyWithImpl<$Res> extends _$VideoModelCopyWithImpl<$Res>
           ? _value.publishedOn
           : publishedOn // ignore: cast_nullable_to_non_nullable
               as DateTime?,
+      uploadDate: uploadDate == freezed
+          ? _value.uploadDate
+          : uploadDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      duration: duration == freezed
+          ? _value.duration
+          : duration // ignore: cast_nullable_to_non_nullable
+              as int?,
+      playlists: playlists == freezed
+          ? _value.playlists
+          : playlists // ignore: cast_nullable_to_non_nullable
+              as List<int>?,
     ));
   }
 }
@@ -220,12 +239,13 @@ class _$_VideoModel implements _VideoModel {
   const _$_VideoModel(
       {required this.id,
       required this.title,
-      required this.videoUrl,
-      required this.thumbnailUrl,
-      required this.categoryId,
-      required this.categoryName,
+      required this.url,
+      @JsonKey(name: "thumbnail") required this.thumbnailUrl,
       this.description,
-      this.publishedOn});
+      this.publishedOn,
+      this.uploadDate,
+      this.duration,
+      this.playlists});
 
   factory _$_VideoModel.fromJson(Map<String, dynamic> json) =>
       _$_$_VideoModelFromJson(json);
@@ -235,21 +255,26 @@ class _$_VideoModel implements _VideoModel {
   @override
   final String title;
   @override
-  final String videoUrl;
+  final String url;
   @override
+  @JsonKey(name: "thumbnail")
   final String thumbnailUrl;
-  @override
-  final String categoryId;
-  @override
-  final String categoryName;
-  @override // added this so that we dont have to search for it all the time
+  @override // required String categoryId,
+// required String
+//     categoryName, // added this so that we dont have to search for it all the time
   final String? description;
   @override
   final DateTime? publishedOn;
+  @override // might need to make this required later
+  final String? uploadDate;
+  @override
+  final int? duration;
+  @override
+  final List<int>? playlists;
 
   @override
   String toString() {
-    return 'VideoModel(id: $id, title: $title, videoUrl: $videoUrl, thumbnailUrl: $thumbnailUrl, categoryId: $categoryId, categoryName: $categoryName, description: $description, publishedOn: $publishedOn)';
+    return 'VideoModel(id: $id, title: $title, url: $url, thumbnailUrl: $thumbnailUrl, description: $description, publishedOn: $publishedOn, uploadDate: $uploadDate, duration: $duration, playlists: $playlists)';
   }
 
   @override
@@ -260,24 +285,26 @@ class _$_VideoModel implements _VideoModel {
                 const DeepCollectionEquality().equals(other.id, id)) &&
             (identical(other.title, title) ||
                 const DeepCollectionEquality().equals(other.title, title)) &&
-            (identical(other.videoUrl, videoUrl) ||
-                const DeepCollectionEquality()
-                    .equals(other.videoUrl, videoUrl)) &&
+            (identical(other.url, url) ||
+                const DeepCollectionEquality().equals(other.url, url)) &&
             (identical(other.thumbnailUrl, thumbnailUrl) ||
                 const DeepCollectionEquality()
                     .equals(other.thumbnailUrl, thumbnailUrl)) &&
-            (identical(other.categoryId, categoryId) ||
-                const DeepCollectionEquality()
-                    .equals(other.categoryId, categoryId)) &&
-            (identical(other.categoryName, categoryName) ||
-                const DeepCollectionEquality()
-                    .equals(other.categoryName, categoryName)) &&
             (identical(other.description, description) ||
                 const DeepCollectionEquality()
                     .equals(other.description, description)) &&
             (identical(other.publishedOn, publishedOn) ||
                 const DeepCollectionEquality()
-                    .equals(other.publishedOn, publishedOn)));
+                    .equals(other.publishedOn, publishedOn)) &&
+            (identical(other.uploadDate, uploadDate) ||
+                const DeepCollectionEquality()
+                    .equals(other.uploadDate, uploadDate)) &&
+            (identical(other.duration, duration) ||
+                const DeepCollectionEquality()
+                    .equals(other.duration, duration)) &&
+            (identical(other.playlists, playlists) ||
+                const DeepCollectionEquality()
+                    .equals(other.playlists, playlists)));
   }
 
   @override
@@ -285,12 +312,13 @@ class _$_VideoModel implements _VideoModel {
       runtimeType.hashCode ^
       const DeepCollectionEquality().hash(id) ^
       const DeepCollectionEquality().hash(title) ^
-      const DeepCollectionEquality().hash(videoUrl) ^
+      const DeepCollectionEquality().hash(url) ^
       const DeepCollectionEquality().hash(thumbnailUrl) ^
-      const DeepCollectionEquality().hash(categoryId) ^
-      const DeepCollectionEquality().hash(categoryName) ^
       const DeepCollectionEquality().hash(description) ^
-      const DeepCollectionEquality().hash(publishedOn);
+      const DeepCollectionEquality().hash(publishedOn) ^
+      const DeepCollectionEquality().hash(uploadDate) ^
+      const DeepCollectionEquality().hash(duration) ^
+      const DeepCollectionEquality().hash(playlists);
 
   @JsonKey(ignore: true)
   @override
@@ -307,12 +335,13 @@ abstract class _VideoModel implements VideoModel {
   const factory _VideoModel(
       {required String id,
       required String title,
-      required String videoUrl,
-      required String thumbnailUrl,
-      required String categoryId,
-      required String categoryName,
+      required String url,
+      @JsonKey(name: "thumbnail") required String thumbnailUrl,
       String? description,
-      DateTime? publishedOn}) = _$_VideoModel;
+      DateTime? publishedOn,
+      String? uploadDate,
+      int? duration,
+      List<int>? playlists}) = _$_VideoModel;
 
   factory _VideoModel.fromJson(Map<String, dynamic> json) =
       _$_VideoModel.fromJson;
@@ -322,17 +351,22 @@ abstract class _VideoModel implements VideoModel {
   @override
   String get title => throw _privateConstructorUsedError;
   @override
-  String get videoUrl => throw _privateConstructorUsedError;
+  String get url => throw _privateConstructorUsedError;
   @override
+  @JsonKey(name: "thumbnail")
   String get thumbnailUrl => throw _privateConstructorUsedError;
-  @override
-  String get categoryId => throw _privateConstructorUsedError;
-  @override
-  String get categoryName => throw _privateConstructorUsedError;
-  @override // added this so that we dont have to search for it all the time
+  @override // required String categoryId,
+// required String
+//     categoryName, // added this so that we dont have to search for it all the time
   String? get description => throw _privateConstructorUsedError;
   @override
   DateTime? get publishedOn => throw _privateConstructorUsedError;
+  @override // might need to make this required later
+  String? get uploadDate => throw _privateConstructorUsedError;
+  @override
+  int? get duration => throw _privateConstructorUsedError;
+  @override
+  List<int>? get playlists => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
   _$VideoModelCopyWith<_VideoModel> get copyWith =>

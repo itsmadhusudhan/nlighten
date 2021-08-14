@@ -27,7 +27,7 @@ class VideoPlayerPageBody extends StatelessWidget {
                         horizontal: 16, vertical: 20),
                     child: VideoTitle(
                       title: state.selectedVideo!.title,
-                      categoryName: state.selectedVideo!.categoryName,
+                      categoryName: "state.selectedVideo!.categoryName",
                     ),
                   ),
                 if (height >= minHeight + 100) const VideoPlaylist(),

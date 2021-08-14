@@ -12,72 +12,51 @@ class VideoListCubit extends Cubit<VideoListState> {
 
   VideoListCubit(this._videoRepository) : super(VideoListState.initial());
 
-  getAllVideos() async {
-    emit(VideoListState.loading());
+  // getAllVideos() async {
+  //   emit(VideoListState.loading());
 
-    final result =
-        await _videoRepository.fetchAllVideos('lib/assets/data/videos.json');
+  //   final result =
+  //       await _videoRepository.fetchAllVideos('lib/assets/data/videos.json');
 
-    final Map<String, List<VideoModel>> _list = {};
+  //   final Map<String, List<VideoModel>> _list = {};
 
-    for (final key in result.keys) {
-      final videos = result[key] != null
-          ? result[key]
-              .map<VideoModel>((json) => VideoModel.fromJson(
-                    json
-                      ..putIfAbsent('categoryId', () => key)
-                      ..putIfAbsent('categoryName', () => json['category'])
-                      ..putIfAbsent(
-                        'thumbnailUrl',
-                        () =>
-                            "https://img.youtube.com/vi/${json['id']}/hqdefault.jpg",
-                      ),
-                  ))
-              .toList()
-          : [];
+  //   for (final key in result.keys) {
+  //     final videos = result[key] != null
+  //         ? result[key]
+  //             .map<VideoModel>((json) => VideoModel.fromJson(
+  //                   json
+  //                     ..putIfAbsent('categoryId', () => key)
+  //                     ..putIfAbsent('categoryName', () => json['category'])
+  //                     ..putIfAbsent(
+  //                       'thumbnailUrl',
+  //                       () =>
+  //                           "https://img.youtube.com/vi/${json['id']}/hqdefault.jpg",
+  //                     ),
+  //                 ))
+  //             .toList()
+  //         : [];
 
-      _list[key] = videos;
-    }
+  //     _list[key] = videos;
+  //   }
 
-    emit(VideoListState.success(_list));
-  }
+  //   emit(VideoListState.success(_list));
+  // }
 
   loadAllVideos() async {
-    final result = await _videoRepository
-        .loadAllVideos('lib/assets/data/master_videos.json');
+    try {
+      final result = await _videoRepository.loadAllVideos();
 
-    print(result);
+      print(result);
+    } catch (e) {
+      print(e);
+    }
   }
 
-  getVideos() async {
-    final result = await _videoRepository.fetchVideosById([
-      "x3rx70nwLi8",
-      "WXid8nl5Xjs",
-      "eH8bed9I094",
-      "haRAlvYyKWg",
-      "JSYXmGiCumU",
-      "fslfCvRuXoE",
-      "ufeiFgOEI5I",
-      "43t5pkzrPHQ",
-      "SDmxmRLN_CQ",
-      "6B83N_JhPnU",
-      "qtzl24Rlc28",
-      "h3YcZXa764o",
-      "BEZ61Yn4xJY",
-      "gYAvg4iq9uE",
-      "H1ii-77ggR0",
-      "EbFSLJfZJa8",
-      "lfun83ca-dE",
-      "ZaQVqtNPTXA",
-      "mahQC5T1OE0",
-      "W0BaDhQlUWs",
-      "9feOr6-1NSM",
-      "SMRK52fbPDE",
-      "YA5KlM-d_eg",
-      "KXgq3uZA9ZE",
-      "PovV7aKjtZI"
-    ]);
+  getVideoByPlaylistId(int id) async {
+    emit(VideoListState.loading());
 
-    print(result);
+    final videos = await _videoRepository.fetchVideosByPlaylistId(id);
+
+    emit(VideoListState.success(videos));
   }
 }

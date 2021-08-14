@@ -38,6 +38,7 @@ class LocalPlaylistRepository implements PlaylistRepository {
 
       return isSeeded;
     } catch (e) {
+      print(e);
       return false;
     }
   }

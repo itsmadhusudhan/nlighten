@@ -28,11 +28,11 @@ class ExploreRouter {
 
       case Routes.videoListRoute:
         // ignore: cast_nullable_to_non_nullable
-        final _arguments = settings.arguments as VideoCategoryArgumnets;
+        final _arguments = settings.arguments as VideoPlaylistArgumnets;
 
         _builder = VideoListPage(
-          id: _arguments.categoryId,
-          title: _arguments.categoryTitle,
+          id: _arguments.playlistId,
+          title: _arguments.playlistTitle,
         );
         break;
 

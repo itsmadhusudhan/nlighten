@@ -23,18 +23,19 @@ class NLighten extends StatelessWidget {
           create: (ctx) => getIt<PlaylistCubit>()..loadAllPlaylists(),
         ),
         BlocProvider(
-          create: (ctx) => getIt<CategoryCubit>()..getAllCategories(),
+          lazy: false,
+          create: (ctx) => getIt<VideoListCubit>()..loadAllVideos(),
         ),
         BlocProvider(
-          create: (ctx) => getIt<VideoListCubit>()..getAllVideos(),
+          create: (ctx) => getIt<CategoryCubit>()..getAllCategories(),
         ),
         BlocProvider(
           lazy: false,
           create: (ctx) => getIt<VideoPlayerCubit>(),
         ),
-        BlocProvider(
-          create: (ctx) => getIt<WatchHistoryCubit>(),
-        ),
+        // BlocProvider(
+        //   create: (ctx) => getIt<WatchHistoryCubit>(),
+        // ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

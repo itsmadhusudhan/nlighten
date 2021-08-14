@@ -8,8 +8,10 @@ class PageAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(bottomLeft: Radius.circular(40))),
       title: Text(title),
-      centerTitle: false,
+      centerTitle: true,
       elevation: 0,
       floating: true,
       pinned: true,

@@ -1,7 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
-part of 'local_video.dart';
+part of 'video_dao.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -12,45 +12,45 @@ T _$identity<T>(T value) => value;
 final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
-LocalVideo _$LocalVideoFromJson(Map<String, dynamic> json) {
-  return _LocalVideo.fromJson(json);
+VideoDao _$VideoDaoFromJson(Map<String, dynamic> json) {
+  return _VideoDao.fromJson(json);
 }
 
 /// @nodoc
-class _$LocalVideoTearOff {
-  const _$LocalVideoTearOff();
+class _$VideoDaoTearOff {
+  const _$VideoDaoTearOff();
 
-  _LocalVideo call(
+  _VideoDao call(
       {@HiveField(0) required String id,
       @HiveField(1) required String title,
       @HiveField(2) required String url,
       @HiveField(3) required String thumbnail,
-      @HiveField(5) String? upload_date,
+      @JsonKey(name: 'upload_date') @HiveField(5) String? uploadDate,
       @HiveField(6) int? duration,
       @HiveField(4) String? description,
       @HiveField(7) List<int>? playlists}) {
-    return _LocalVideo(
+    return _VideoDao(
       id: id,
       title: title,
       url: url,
       thumbnail: thumbnail,
-      upload_date: upload_date,
+      uploadDate: uploadDate,
       duration: duration,
       description: description,
       playlists: playlists,
     );
   }
 
-  LocalVideo fromJson(Map<String, Object> json) {
-    return LocalVideo.fromJson(json);
+  VideoDao fromJson(Map<String, Object> json) {
+    return VideoDao.fromJson(json);
   }
 }
 
 /// @nodoc
-const $LocalVideo = _$LocalVideoTearOff();
+const $VideoDao = _$VideoDaoTearOff();
 
 /// @nodoc
-mixin _$LocalVideo {
+mixin _$VideoDao {
   @HiveField(0)
   String get id => throw _privateConstructorUsedError;
   @HiveField(1)
@@ -59,8 +59,9 @@ mixin _$LocalVideo {
   String get url => throw _privateConstructorUsedError;
   @HiveField(3)
   String get thumbnail => throw _privateConstructorUsedError;
+  @JsonKey(name: 'upload_date')
   @HiveField(5)
-  String? get upload_date => throw _privateConstructorUsedError;
+  String? get uploadDate => throw _privateConstructorUsedError;
   @HiveField(6)
   int? get duration => throw _privateConstructorUsedError;
   @HiveField(4)
@@ -70,33 +71,32 @@ mixin _$LocalVideo {
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $LocalVideoCopyWith<LocalVideo> get copyWith =>
+  $VideoDaoCopyWith<VideoDao> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $LocalVideoCopyWith<$Res> {
-  factory $LocalVideoCopyWith(
-          LocalVideo value, $Res Function(LocalVideo) then) =
-      _$LocalVideoCopyWithImpl<$Res>;
+abstract class $VideoDaoCopyWith<$Res> {
+  factory $VideoDaoCopyWith(VideoDao value, $Res Function(VideoDao) then) =
+      _$VideoDaoCopyWithImpl<$Res>;
   $Res call(
       {@HiveField(0) String id,
       @HiveField(1) String title,
       @HiveField(2) String url,
       @HiveField(3) String thumbnail,
-      @HiveField(5) String? upload_date,
+      @JsonKey(name: 'upload_date') @HiveField(5) String? uploadDate,
       @HiveField(6) int? duration,
       @HiveField(4) String? description,
       @HiveField(7) List<int>? playlists});
 }
 
 /// @nodoc
-class _$LocalVideoCopyWithImpl<$Res> implements $LocalVideoCopyWith<$Res> {
-  _$LocalVideoCopyWithImpl(this._value, this._then);
+class _$VideoDaoCopyWithImpl<$Res> implements $VideoDaoCopyWith<$Res> {
+  _$VideoDaoCopyWithImpl(this._value, this._then);
 
-  final LocalVideo _value;
+  final VideoDao _value;
   // ignore: unused_field
-  final $Res Function(LocalVideo) _then;
+  final $Res Function(VideoDao) _then;
 
   @override
   $Res call({
@@ -104,7 +104,7 @@ class _$LocalVideoCopyWithImpl<$Res> implements $LocalVideoCopyWith<$Res> {
     Object? title = freezed,
     Object? url = freezed,
     Object? thumbnail = freezed,
-    Object? upload_date = freezed,
+    Object? uploadDate = freezed,
     Object? duration = freezed,
     Object? description = freezed,
     Object? playlists = freezed,
@@ -126,9 +126,9 @@ class _$LocalVideoCopyWithImpl<$Res> implements $LocalVideoCopyWith<$Res> {
           ? _value.thumbnail
           : thumbnail // ignore: cast_nullable_to_non_nullable
               as String,
-      upload_date: upload_date == freezed
-          ? _value.upload_date
-          : upload_date // ignore: cast_nullable_to_non_nullable
+      uploadDate: uploadDate == freezed
+          ? _value.uploadDate
+          : uploadDate // ignore: cast_nullable_to_non_nullable
               as String?,
       duration: duration == freezed
           ? _value.duration
@@ -147,31 +147,29 @@ class _$LocalVideoCopyWithImpl<$Res> implements $LocalVideoCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$LocalVideoCopyWith<$Res> implements $LocalVideoCopyWith<$Res> {
-  factory _$LocalVideoCopyWith(
-          _LocalVideo value, $Res Function(_LocalVideo) then) =
-      __$LocalVideoCopyWithImpl<$Res>;
+abstract class _$VideoDaoCopyWith<$Res> implements $VideoDaoCopyWith<$Res> {
+  factory _$VideoDaoCopyWith(_VideoDao value, $Res Function(_VideoDao) then) =
+      __$VideoDaoCopyWithImpl<$Res>;
   @override
   $Res call(
       {@HiveField(0) String id,
       @HiveField(1) String title,
       @HiveField(2) String url,
       @HiveField(3) String thumbnail,
-      @HiveField(5) String? upload_date,
+      @JsonKey(name: 'upload_date') @HiveField(5) String? uploadDate,
       @HiveField(6) int? duration,
       @HiveField(4) String? description,
       @HiveField(7) List<int>? playlists});
 }
 
 /// @nodoc
-class __$LocalVideoCopyWithImpl<$Res> extends _$LocalVideoCopyWithImpl<$Res>
-    implements _$LocalVideoCopyWith<$Res> {
-  __$LocalVideoCopyWithImpl(
-      _LocalVideo _value, $Res Function(_LocalVideo) _then)
-      : super(_value, (v) => _then(v as _LocalVideo));
+class __$VideoDaoCopyWithImpl<$Res> extends _$VideoDaoCopyWithImpl<$Res>
+    implements _$VideoDaoCopyWith<$Res> {
+  __$VideoDaoCopyWithImpl(_VideoDao _value, $Res Function(_VideoDao) _then)
+      : super(_value, (v) => _then(v as _VideoDao));
 
   @override
-  _LocalVideo get _value => super._value as _LocalVideo;
+  _VideoDao get _value => super._value as _VideoDao;
 
   @override
   $Res call({
@@ -179,12 +177,12 @@ class __$LocalVideoCopyWithImpl<$Res> extends _$LocalVideoCopyWithImpl<$Res>
     Object? title = freezed,
     Object? url = freezed,
     Object? thumbnail = freezed,
-    Object? upload_date = freezed,
+    Object? uploadDate = freezed,
     Object? duration = freezed,
     Object? description = freezed,
     Object? playlists = freezed,
   }) {
-    return _then(_LocalVideo(
+    return _then(_VideoDao(
       id: id == freezed
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
@@ -201,9 +199,9 @@ class __$LocalVideoCopyWithImpl<$Res> extends _$LocalVideoCopyWithImpl<$Res>
           ? _value.thumbnail
           : thumbnail // ignore: cast_nullable_to_non_nullable
               as String,
-      upload_date: upload_date == freezed
-          ? _value.upload_date
-          : upload_date // ignore: cast_nullable_to_non_nullable
+      uploadDate: uploadDate == freezed
+          ? _value.uploadDate
+          : uploadDate // ignore: cast_nullable_to_non_nullable
               as String?,
       duration: duration == freezed
           ? _value.duration
@@ -223,20 +221,20 @@ class __$LocalVideoCopyWithImpl<$Res> extends _$LocalVideoCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-@HiveType(typeId: 3, adapterName: 'LocalVideoAdapter')
-class _$_LocalVideo implements _LocalVideo {
-  const _$_LocalVideo(
+@HiveType(typeId: 3, adapterName: 'VideoDaoAdapter')
+class _$_VideoDao implements _VideoDao {
+  const _$_VideoDao(
       {@HiveField(0) required this.id,
       @HiveField(1) required this.title,
       @HiveField(2) required this.url,
       @HiveField(3) required this.thumbnail,
-      @HiveField(5) this.upload_date,
+      @JsonKey(name: 'upload_date') @HiveField(5) this.uploadDate,
       @HiveField(6) this.duration,
       @HiveField(4) this.description,
       @HiveField(7) this.playlists});
 
-  factory _$_LocalVideo.fromJson(Map<String, dynamic> json) =>
-      _$_$_LocalVideoFromJson(json);
+  factory _$_VideoDao.fromJson(Map<String, dynamic> json) =>
+      _$_$_VideoDaoFromJson(json);
 
   @override
   @HiveField(0)
@@ -251,8 +249,9 @@ class _$_LocalVideo implements _LocalVideo {
   @HiveField(3)
   final String thumbnail;
   @override
+  @JsonKey(name: 'upload_date')
   @HiveField(5)
-  final String? upload_date;
+  final String? uploadDate;
   @override
   @HiveField(6)
   final int? duration;
@@ -265,13 +264,13 @@ class _$_LocalVideo implements _LocalVideo {
 
   @override
   String toString() {
-    return 'LocalVideo(id: $id, title: $title, url: $url, thumbnail: $thumbnail, upload_date: $upload_date, duration: $duration, description: $description, playlists: $playlists)';
+    return 'VideoDao(id: $id, title: $title, url: $url, thumbnail: $thumbnail, uploadDate: $uploadDate, duration: $duration, description: $description, playlists: $playlists)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other is _LocalVideo &&
+        (other is _VideoDao &&
             (identical(other.id, id) ||
                 const DeepCollectionEquality().equals(other.id, id)) &&
             (identical(other.title, title) ||
@@ -281,9 +280,9 @@ class _$_LocalVideo implements _LocalVideo {
             (identical(other.thumbnail, thumbnail) ||
                 const DeepCollectionEquality()
                     .equals(other.thumbnail, thumbnail)) &&
-            (identical(other.upload_date, upload_date) ||
+            (identical(other.uploadDate, uploadDate) ||
                 const DeepCollectionEquality()
-                    .equals(other.upload_date, upload_date)) &&
+                    .equals(other.uploadDate, uploadDate)) &&
             (identical(other.duration, duration) ||
                 const DeepCollectionEquality()
                     .equals(other.duration, duration)) &&
@@ -302,35 +301,34 @@ class _$_LocalVideo implements _LocalVideo {
       const DeepCollectionEquality().hash(title) ^
       const DeepCollectionEquality().hash(url) ^
       const DeepCollectionEquality().hash(thumbnail) ^
-      const DeepCollectionEquality().hash(upload_date) ^
+      const DeepCollectionEquality().hash(uploadDate) ^
       const DeepCollectionEquality().hash(duration) ^
       const DeepCollectionEquality().hash(description) ^
       const DeepCollectionEquality().hash(playlists);
 
   @JsonKey(ignore: true)
   @override
-  _$LocalVideoCopyWith<_LocalVideo> get copyWith =>
-      __$LocalVideoCopyWithImpl<_LocalVideo>(this, _$identity);
+  _$VideoDaoCopyWith<_VideoDao> get copyWith =>
+      __$VideoDaoCopyWithImpl<_VideoDao>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$_$_LocalVideoToJson(this);
+    return _$_$_VideoDaoToJson(this);
   }
 }
 
-abstract class _LocalVideo implements LocalVideo {
-  const factory _LocalVideo(
+abstract class _VideoDao implements VideoDao {
+  const factory _VideoDao(
       {@HiveField(0) required String id,
       @HiveField(1) required String title,
       @HiveField(2) required String url,
       @HiveField(3) required String thumbnail,
-      @HiveField(5) String? upload_date,
+      @JsonKey(name: 'upload_date') @HiveField(5) String? uploadDate,
       @HiveField(6) int? duration,
       @HiveField(4) String? description,
-      @HiveField(7) List<int>? playlists}) = _$_LocalVideo;
+      @HiveField(7) List<int>? playlists}) = _$_VideoDao;
 
-  factory _LocalVideo.fromJson(Map<String, dynamic> json) =
-      _$_LocalVideo.fromJson;
+  factory _VideoDao.fromJson(Map<String, dynamic> json) = _$_VideoDao.fromJson;
 
   @override
   @HiveField(0)
@@ -345,8 +343,9 @@ abstract class _LocalVideo implements LocalVideo {
   @HiveField(3)
   String get thumbnail => throw _privateConstructorUsedError;
   @override
+  @JsonKey(name: 'upload_date')
   @HiveField(5)
-  String? get upload_date => throw _privateConstructorUsedError;
+  String? get uploadDate => throw _privateConstructorUsedError;
   @override
   @HiveField(6)
   int? get duration => throw _privateConstructorUsedError;
@@ -358,6 +357,6 @@ abstract class _LocalVideo implements LocalVideo {
   List<int>? get playlists => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$LocalVideoCopyWith<_LocalVideo> get copyWith =>
+  _$VideoDaoCopyWith<_VideoDao> get copyWith =>
       throw _privateConstructorUsedError;
 }

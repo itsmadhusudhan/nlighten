@@ -35,7 +35,8 @@ class _HomePageState extends State<HomePage> {
             sizing: StackFit.expand,
             children: [
               const ExploreNavigator(),
-              const WatchHistoryNavigator(),
+              // const WatchHistoryNavigator(),
+              Container()
             ],
           ),
           MiniVideoPlayer(),

@@ -14,7 +14,7 @@ abstract class RepositoryInjector {
   CategoryRepository get localCategoryRepository => LocalCategoryRepository();
 
   @LazySingleton(env: [AppEnvironment.local])
-  VideoRepository get localVideoRepository => LocalVideoRepository();
+  VideoRepository get localVideoepository => LocalVideoRepository();
 
   @LazySingleton(env: [AppEnvironment.local])
   WatchHistoryRepository get localWatchHistoryRepository =>

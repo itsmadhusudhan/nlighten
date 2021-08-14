@@ -30,7 +30,7 @@ class _$VideoListStateTearOff {
     );
   }
 
-  _VideoListStateSuccess success(Map<String, List<VideoModel>> videos) {
+  _VideoListStateSuccess success(List<VideoModel> videos) {
     return _VideoListStateSuccess(
       videos,
     );
@@ -47,7 +47,7 @@ mixin _$VideoListState {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(Map<String, List<VideoModel>> videos) success,
+    required TResult Function(List<VideoModel> videos) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -55,7 +55,7 @@ mixin _$VideoListState {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(Map<String, List<VideoModel>> videos)? success,
+    TResult Function(List<VideoModel> videos)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -138,7 +138,7 @@ class _$_VideoListStateInitial implements _VideoListStateInitial {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(Map<String, List<VideoModel>> videos) success,
+    required TResult Function(List<VideoModel> videos) success,
   }) {
     return initial();
   }
@@ -149,7 +149,7 @@ class _$_VideoListStateInitial implements _VideoListStateInitial {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(Map<String, List<VideoModel>> videos)? success,
+    TResult Function(List<VideoModel> videos)? success,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -232,7 +232,7 @@ class _$_VideoListStateLoading implements _VideoListStateLoading {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(Map<String, List<VideoModel>> videos) success,
+    required TResult Function(List<VideoModel> videos) success,
   }) {
     return loading();
   }
@@ -243,7 +243,7 @@ class _$_VideoListStateLoading implements _VideoListStateLoading {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(Map<String, List<VideoModel>> videos)? success,
+    TResult Function(List<VideoModel> videos)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -352,7 +352,7 @@ class _$_VideoListStateError implements _VideoListStateError {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(Map<String, List<VideoModel>> videos) success,
+    required TResult Function(List<VideoModel> videos) success,
   }) {
     return error(message);
   }
@@ -363,7 +363,7 @@ class _$_VideoListStateError implements _VideoListStateError {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(Map<String, List<VideoModel>> videos)? success,
+    TResult Function(List<VideoModel> videos)? success,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -414,7 +414,7 @@ abstract class _$VideoListStateSuccessCopyWith<$Res> {
   factory _$VideoListStateSuccessCopyWith(_VideoListStateSuccess value,
           $Res Function(_VideoListStateSuccess) then) =
       __$VideoListStateSuccessCopyWithImpl<$Res>;
-  $Res call({Map<String, List<VideoModel>> videos});
+  $Res call({List<VideoModel> videos});
 }
 
 /// @nodoc
@@ -436,7 +436,7 @@ class __$VideoListStateSuccessCopyWithImpl<$Res>
       videos == freezed
           ? _value.videos
           : videos // ignore: cast_nullable_to_non_nullable
-              as Map<String, List<VideoModel>>,
+              as List<VideoModel>,
     ));
   }
 }
@@ -447,7 +447,7 @@ class _$_VideoListStateSuccess implements _VideoListStateSuccess {
   _$_VideoListStateSuccess(this.videos);
 
   @override
-  final Map<String, List<VideoModel>> videos;
+  final List<VideoModel> videos;
 
   @override
   String toString() {
@@ -478,7 +478,7 @@ class _$_VideoListStateSuccess implements _VideoListStateSuccess {
     required TResult Function() initial,
     required TResult Function() loading,
     required TResult Function(String message) error,
-    required TResult Function(Map<String, List<VideoModel>> videos) success,
+    required TResult Function(List<VideoModel> videos) success,
   }) {
     return success(videos);
   }
@@ -489,7 +489,7 @@ class _$_VideoListStateSuccess implements _VideoListStateSuccess {
     TResult Function()? initial,
     TResult Function()? loading,
     TResult Function(String message)? error,
-    TResult Function(Map<String, List<VideoModel>> videos)? success,
+    TResult Function(List<VideoModel> videos)? success,
     required TResult orElse(),
   }) {
     if (success != null) {
@@ -526,11 +526,10 @@ class _$_VideoListStateSuccess implements _VideoListStateSuccess {
 }
 
 abstract class _VideoListStateSuccess implements VideoListState {
-  factory _VideoListStateSuccess(Map<String, List<VideoModel>> videos) =
+  factory _VideoListStateSuccess(List<VideoModel> videos) =
       _$_VideoListStateSuccess;
 
-  Map<String, List<VideoModel>> get videos =>
-      throw _privateConstructorUsedError;
+  List<VideoModel> get videos => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
   _$VideoListStateSuccessCopyWith<_VideoListStateSuccess> get copyWith =>
       throw _privateConstructorUsedError;

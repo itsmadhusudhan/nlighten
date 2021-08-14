@@ -1,7 +1,9 @@
+import 'package:nlighten_domain/nlighten_domain.dart';
+
 abstract class VideoRepository {
-  Future<Map<String, dynamic>> fetchAllVideos(String filePath);
+  Future<bool> loadAllVideos();
 
-  Future<bool> loadAllVideos(String filePath);
+  Future<List<VideoModel>> fetchVideosByPlaylistId(int id, {int? limit});
 
-  Future<List<dynamic>> fetchVideosById(List<String> videoIds);
+  Future<List<VideoModel>> fetchExploreVideos();
 }

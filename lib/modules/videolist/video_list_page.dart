@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
 import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
-import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 
-class VideoListPage extends StatelessWidget {
-  final String id;
+class VideoListPage extends StatefulWidget {
+  final int id;
 
   final String title;
 
@@ -30,9 +30,12 @@ class VideoListPage extends StatelessWidget {
     );
   }
 
-  Widget _successBuilder(Map<String, List<VideoModel>> videosMap) {
-    final videos = videosMap[id];
+  @override
+  _VideoListPageState createState() => _VideoListPageState();
+}
 
+class _VideoListPageState extends State<VideoListPage> {
+  Widget _successBuilder(List<VideoModel> videos) {
     if (videos == null || videos.isEmpty) {
       return Center(
         child: Text("No Videos Found"),
@@ -65,10 +68,19 @@ class VideoListPage extends StatelessWidget {
   }
 
   @override
+  void initState() {
+    SchedulerBinding.instance?.addPostFrameCallback((timeStamp) {
+      context.read<VideoListCubit>().getVideoByPlaylistId(widget.id);
+    });
+
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text(widget.title),
         centerTitle: false,
       ),
       body: BlocBuilder<VideoListCubit, VideoListState>(

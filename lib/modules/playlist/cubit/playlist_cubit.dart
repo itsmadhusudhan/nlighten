@@ -30,7 +30,7 @@ class PlaylistCubit extends Cubit<PlaylistState> {
 
       final playlists = await _playlistRepository.fetchAllPlaylists();
 
-      print(playlists);
+      // print(playlists);
 
       emit(PlaylistState.success(playlists));
     } catch (e) {

@@ -9,6 +9,6 @@ class VideoListState with _$VideoListState {
   factory VideoListState.error({required String message}) =
       _VideoListStateError;
 
-  factory VideoListState.success(Map<String, List<VideoModel>> videos) =
+  factory VideoListState.success(List<VideoModel> videos) =
       _VideoListStateSuccess;
 }

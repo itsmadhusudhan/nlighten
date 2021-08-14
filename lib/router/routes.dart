@@ -39,3 +39,14 @@ class VideoCategoryArgumnets {
     required this.categoryTitle,
   });
 }
+
+class VideoPlaylistArgumnets {
+  final int playlistId;
+
+  final String playlistTitle;
+
+  VideoPlaylistArgumnets({
+    required this.playlistId,
+    required this.playlistTitle,
+  });
+}

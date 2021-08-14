@@ -31,18 +31,19 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
     );
 
     // playerExpandProgress.addListener(() {
-    //   print(playerExpandProgress.value);
-
-    //   if (playerExpandProgress.value <= minHeight + 100) {
+    //   if (_youtubeService != null &&
+    //       playerExpandProgress.value <= minHeight + 100) {
     //     print("printing");
 
     //     _youtubeService.controller.fitWidth(Size(180, 100));
 
     //     _youtubeService.controller.fitHeight(Size(180, 100));
-    //   } else {
-    //     _youtubeService.controller.fitWidth(Size(180, 100));
 
-    //     _youtubeService.controller.fitHeight(Size(180, 100));
+    //     // _youtubeService.controller.fitHeight(Size(180, 100));
+    //   } else {
+    //     // _youtubeService.controller.fitWidth(Size(180, 100));
+
+    //     // _youtubeService.controller.fitHeight(Size(180, 100));
     //   }
     // });
 

@@ -37,7 +37,7 @@ _i1.GetIt $initGetIt(_i1.GetIt get,
       (service, _) => _i5.VideoControllerBloc(service));
   gh.factory<_i7.VideoPlayerCubit>(() => _i7.VideoPlayerCubit());
   gh.lazySingleton<_i3.VideoRepository>(
-      () => repositoryInjector.localVideoRepository,
+      () => repositoryInjector.localVideoepository,
       registerFor: {_local});
   gh.lazySingleton<_i8.WatchHistoryRepository>(
       () => repositoryInjector.localWatchHistoryRepository,

@@ -52,7 +52,7 @@ class VideoListTile extends StatelessWidget {
                     height: 4,
                   ),
                   Text(
-                    video.categoryName,
+                    "video.categoryName",
                     style: TextStyle(fontSize: 12),
                   ),
                 ],
