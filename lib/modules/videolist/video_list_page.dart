@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
 import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
+import 'package:nlighten/modules/videoplayer/widgets/app_header_delegate.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 
@@ -35,40 +36,68 @@ class VideoListPage extends StatefulWidget {
 }
 
 class _VideoListPageState extends State<VideoListPage> {
+  final _controller = ScrollController();
+
+  double get maxHeight => 150 + MediaQuery.of(context).padding.top;
+
+  double get minHeight => kToolbarHeight + MediaQuery.of(context).padding.top;
+
+  bool isEmpty = false;
+
   Widget _successBuilder(List<VideoModel> videos) {
-    if (videos == null || videos.isEmpty) {
+    if (videos.isEmpty) {
       return Center(
         child: Text("No Videos Found"),
       );
     }
 
-    return ListView.separated(
-      separatorBuilder: (ctx, index) => Divider(
-        color: Colors.black.withOpacity(0.5),
-        indent: 12,
-        endIndent: 12,
+    return CustomScrollView(
+      controller: _controller,
+      shrinkWrap: true,
+      physics: AlwaysScrollableScrollPhysics(),
+      slivers: [
+        SliverPersistentHeader(
+          pinned: true,
+          floating: true,
+          delegate: AppHeaderDelegate(
+            hmaxExtent: maxHeight,
+            hminExtent: minHeight,
+            title: widget.title,
+            count: videos.length,
+          ),
+        ),
+        SliverPadding(
+          padding: EdgeInsets.symmetric(vertical: 20),
+          sliver: renderList(videos),
+        ),
+      ],
+    );
+  }
+
+  SliverList renderList(List<VideoModel> videos) {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate(
+        (context, index) {
+          final _video = videos[index];
+
+          return VideoListTile(
+            video: _video,
+            onPressed: (id) {
+              context
+                  .read<VideoPlayerCubit>()
+                  .loadPlayList(video: _video, playlist: videos);
+            },
+          );
+        },
+        childCount: videos.length,
+        addAutomaticKeepAlives: true,
       ),
-      itemCount: videos.length,
-      itemBuilder: (context, index) {
-        final _video = videos[index];
-
-        return VideoListTile(
-          video: _video,
-          onPressed: (id) {
-            context
-                .read<VideoPlayerCubit>()
-                .loadPlayList(video: _video, playlist: videos);
-
-            // Navigator.of(context, rootNavigator: true)
-            //     .push(MaterialPageRoute(builder: (ctx) => VideoPlayerPage()));
-          },
-        );
-      },
     );
   }
 
   @override
   void initState() {
+    // we are querying for the videos in the playlist using the id
     SchedulerBinding.instance?.addPostFrameCallback((timeStamp) {
       context.read<VideoListCubit>().getVideoByPlaylistId(widget.id);
     });
@@ -79,17 +108,11 @@ class _VideoListPageState extends State<VideoListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-        centerTitle: false,
-      ),
       body: BlocBuilder<VideoListCubit, VideoListState>(
         builder: (context, state) {
           return state.maybeWhen(
             success: (e) => _successBuilder(e),
-            orElse: () => Center(
-              child: CircularProgressIndicator(),
-            ),
+            orElse: () => Center(child: CircularProgressIndicator()),
           );
         },
       ),

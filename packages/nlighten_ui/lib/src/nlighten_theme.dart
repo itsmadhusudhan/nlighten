@@ -6,13 +6,32 @@ class LightTheme {
 }
 
 class NLightenTheme {
+  static MaterialColor swatch = MaterialColor(
+    _primaryValue,
+    <int, Color>{
+      50: LightTheme.primary.withOpacity(0.6),
+      100: Color(_primaryValue).withOpacity(0.1),
+      200: Color(_primaryValue).withOpacity(0.2),
+      300: Color(_primaryValue).withOpacity(0.7),
+      400: Color(_primaryValue).withOpacity(0.5),
+      500: Color(_primaryValue),
+      600: Color(_primaryValue).withOpacity(0.7),
+      700: Color(_primaryValue).withOpacity(0.7),
+      800: Color(_primaryValue).withOpacity(0.7),
+      900: Color(_primaryValue).withOpacity(0.7),
+    },
+  );
+  static int _primaryValue = LightTheme.primary.value;
+
   static final ThemeData _baseTheme = ThemeData(
     fontFamily: 'Montserrat',
     brightness: Brightness.light,
+    primarySwatch: swatch,
   );
 
   static final ThemeData lightTheme = _baseTheme.copyWith(
-    primaryColor: LightTheme.primary,
+    primaryColorLight: LightTheme.primary.withOpacity(0.6),
+    // primaryColor: LightTheme.primary,
     accentColor: UIColors.gold,
     disabledColor: UIColors.hitGray,
     highlightColor: UIColors.orange,

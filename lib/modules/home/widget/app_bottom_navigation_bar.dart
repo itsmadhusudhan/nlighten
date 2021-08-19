@@ -18,12 +18,12 @@ class AppBottomNavigationBar extends StatelessWidget {
       currentIndex: selectedTab,
       items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.explore),
-          label: "Explore",
+          icon: Icon(Icons.video_collection),
+          label: "Videos",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.watch_later),
-          label: "Watch History",
+          icon: Icon(Icons.audiotrack),
+          label: "Audios",
         ),
       ],
     );

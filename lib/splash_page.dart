@@ -12,6 +12,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+      // need to update this one
       Future.delayed(const Duration(seconds: 1)).then((value) =>
           Navigator.of(context, rootNavigator: true)
               .pushReplacementNamed(Routes.homeRoute));

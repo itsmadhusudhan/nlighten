@@ -16,4 +16,6 @@ class UIColors {
   static final Color white = Color(0xffFFFFFF);
 
   static final Color sharkBlack = Color(0xff1A1B1E);
+
+  static final Color gray = Color(0xffF3EEEE);
 }

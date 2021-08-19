@@ -53,14 +53,13 @@ class ExplorePageBody extends StatelessWidget {
                 return Text("No Playlists found");
               },
               success: (playlists) {
-                var rng = new Random();
+                // var rng = new Random();
 
                 return Column(
                   children: [
                     for (var i = 0; i < 3; i++)
                       VideoListCardView(
-                        playlist: playlists[rng.nextInt(playlists.length -
-                            1)], // just showing them in random
+                        playlist: playlists[i], // just showing them in random
                       )
                   ],
                 );
