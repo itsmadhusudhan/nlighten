@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
               Container()
             ],
           ),
-          MiniVideoPlayer(),
+          // MiniVideoPlayer(),
         ],
       ),
       bottomNavigationBar: ValueListenableBuilder(

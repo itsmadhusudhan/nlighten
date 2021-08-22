@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videolist/widgets/video_list_tile.dart';
 import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
+import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/modules/videoplayer/widgets/app_header_delegate.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
@@ -86,6 +87,8 @@ class _VideoListPageState extends State<VideoListPage> {
               context
                   .read<VideoPlayerCubit>()
                   .loadPlayList(video: _video, playlist: videos);
+
+              VideoPlayerPage.pushVidepPlayerPageRoute(context);
             },
           );
         },

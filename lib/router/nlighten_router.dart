@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nlighten/modules/home/home_page.dart';
+import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten/splash_page.dart';
 
@@ -21,6 +22,10 @@ class NLightenRouter {
       // our immediate page after the splash page
       case Routes.homeRoute:
         _builder = const HomePage();
+        break;
+
+      case Routes.videoPlayerRoute:
+        _builder = const VideoPlayerPage();
         break;
 
       default:

@@ -4,6 +4,7 @@ import 'package:nlighten/locator.dart';
 
 import 'package:nlighten/modules/videolist/widgets/video_list_card.dart';
 import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
+import 'package:nlighten/modules/videoplayer/video_player_page.dart';
 import 'package:nlighten/router/routes.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
 import 'package:nlighten_ui/nlighten_ui.dart';
@@ -33,6 +34,8 @@ class VideoListCardView extends StatelessWidget {
           context
               .read<VideoPlayerCubit>()
               .loadPlayList(video: videos[index], playlist: videos);
+
+          VideoPlayerPage.pushVidepPlayerPageRoute(context);
         },
       ),
     );

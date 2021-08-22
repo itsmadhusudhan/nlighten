@@ -12,85 +12,76 @@ class VideoPlayerView extends StatelessWidget {
   const VideoPlayerView({Key? key, required this.youtubeService})
       : super(key: key);
 
+  handleAction({required BuildContext context, required String type}) {
+    if (!youtubeService.isFullScreen && type == 'TOGGLE_FULLSCREEN') {
+      Navigator.of(context).pop();
+    }
+
+    // need to toggle only if the player is full screen
+    if (youtubeService.isFullScreen && type == 'TOGGLE_FULLSCREEN')
+      youtubeService.controller.toggleFullScreenMode();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: BlocListener<VideoPlayerCubit, VideoPlayerState>(
-        listener: (context, state) {},
-        child: ValueListenableBuilder<double>(
-          valueListenable: playerExpandProgress,
-          builder: (context, height, child) {
-            final isMinimised = height <= minHeight + 100;
-
-            return Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(
-                  flex: isMinimised ? 0 : 1,
-                  child: YoutubePlayerBuilder(
-                    player: YoutubePlayer(
-                      width:
-                          isMinimised ? 100 : MediaQuery.of(context).size.width,
-                      controller: youtubeService.controller,
-                      showVideoProgressIndicator: true,
-                      topActions: <Widget>[
-                        // const SizedBox(width: 4.0),
-                        // const PlayerTopActions(),
-                      ],
-                    ),
-                    builder: (ctx, player) =>
-                        VideoPlayerPageBody(player: player),
-                  ),
+    return SafeArea(
+      child: Scaffold(
+        body: BlocListener<VideoPlayerCubit, VideoPlayerState>(
+          listener: (context, state) {},
+          child: ValueListenableBuilder<double>(
+            valueListenable: playerExpandProgress,
+            builder: (context, height, child) {
+              return YoutubePlayerBuilder(
+                player: YoutubePlayer(
+                  controller: youtubeService.controller,
+                  showVideoProgressIndicator: true,
+                  actionsPadding: EdgeInsets.only(top: 0),
+                  topActions: <Widget>[
+                    // SizedBox(width: 4.0),
+                    PlayerTopActions(
+                        onAction: ({required String type}) =>
+                            handleAction.call(context: context, type: type)),
+                  ],
                 ),
-                if (isMinimised)
-                  Padding(
-                    padding: const EdgeInsets.only(left: 8, top: 8),
-                    child: Row(
-                      children: [
-                        // Text(
-                        //   "Enlightenment is near",
-                        //   style: TextStyle(fontSize: 16),
-                        //   overflow: TextOverflow.ellipsis,
-                        // ),
-                        InkWell(
-                          onTap: () {
-                            if (youtubeService.isPlaying)
-                              youtubeService.pause();
-                            else
-                              youtubeService.play();
-                          },
-                          child: Icon(
-                            youtubeService.isPlaying
-                                ? Icons.pause
-                                : Icons.play_arrow,
-                          ),
-                        ),
-                        TextButton(
-                          child: Text("PLay"),
-                          onPressed: () {
-                            youtubeService.play();
-                          },
-                        ),
-                        // IconButton(
-                        //   color: Colors.deepOrange,
-                        //   icon: Icon(youtubeService.isPlaying
-                        //       ? Icons.pause
-                        //       : Icons.play_arrow),
-                        //   onPressed: () {},
-                        // ),
-                        IconButton(
-                          icon: Icon(Icons.close),
-                          onPressed: () {},
-                        ),
-                      ],
-                    ),
-                  )
-              ],
-            );
-            // }
-          },
+                builder: (ctx, player) => VideoPlayerPageBody(player: player),
+              );
+              // }
+            },
+          ),
         ),
       ),
     );
   }
 }
+
+
+   // if (isMinimised)
+                //   Padding(
+                //     padding: const EdgeInsets.only(left: 8, top: 8),
+                //     child: Row(
+                //       children: [
+                //         Text(
+                //           "Enlightenment is near",
+                //           style: TextStyle(fontSize: 16),
+                //           overflow: TextOverflow.ellipsis,
+                //         ),
+                //         InkWell(
+                //           onTap: () {
+                //             if (youtubeService.isPlaying)
+                //               youtubeService.pause();
+                //             else
+                //               youtubeService.play();
+                //           },
+                //           child: Icon(
+                //             youtubeService.isPlaying
+                //                 ? Icons.pause
+                //                 : Icons.play_arrow,
+                //           ),
+                //         ),
+                //         IconButton(
+                //           icon: Icon(Icons.close),
+                //           onPressed: () {},
+                //         ),
+                //       ],
+                //     ),
+                //   )

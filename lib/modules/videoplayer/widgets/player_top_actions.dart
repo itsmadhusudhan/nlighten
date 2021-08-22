@@ -4,7 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nlighten/modules/videoplayer/bloc/bloc.dart';
 
 class PlayerTopActions extends StatelessWidget {
-  const PlayerTopActions({Key? key}) : super(key: key);
+  final Function({required String type}) onAction;
+
+  PlayerTopActions({Key? key, required this.onAction}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,14 +17,15 @@ class PlayerTopActions extends StatelessWidget {
             children: [
               IconButton(
                 icon: const Icon(
-                  Icons.keyboard_arrow_down,
+                  Icons.arrow_back,
                   color: Colors.white,
                   size: 30.0,
                 ),
                 onPressed: () {
                   SystemChrome.setPreferredOrientations(
                       [DeviceOrientation.portraitUp]);
-                  Navigator.pop(context);
+                  // Navigator.pop(context);
+                  onAction(type: "TOGGLE_FULLSCREEN");
                 },
               ),
               Container(
