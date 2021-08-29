@@ -31,6 +31,7 @@ class NLightenTheme {
 
   static final ThemeData lightTheme = _baseTheme.copyWith(
     primaryColorLight: LightTheme.primary.withOpacity(0.6),
+    textTheme: TextTheme(bodyText2: TextStyle(color: UIColors.sharkBlack)),
     // primaryColor: LightTheme.primary,
     accentColor: UIColors.gold,
     disabledColor: UIColors.hitGray,

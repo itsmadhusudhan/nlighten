@@ -77,6 +77,7 @@ class PlaylistPage extends StatelessWidget {
                     margin: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                     child: Material(
                       child: InkWell(
+                        highlightColor: UIColors.matrix.withOpacity(0.1),
                         borderRadius: BorderRadius.circular(10),
                         onTap: () {
                           // FIXME: sending dummy argument for now

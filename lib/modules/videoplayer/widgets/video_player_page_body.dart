@@ -49,6 +49,15 @@ class _VideoPlayerPageBodyState extends State<VideoPlayerPageBody> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+                            Text(
+                              "Description",
+                              style: TextStyle(
+                                color: UIColors.matrix,
+                              ),
+                            ),
+                            SizedBox(
+                              height: 4,
+                            ),
                             RichText(
                               maxLines: isExpanded ? 300 : 6,
                               softWrap: true,

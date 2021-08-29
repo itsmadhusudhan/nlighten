@@ -21,7 +21,8 @@ class VideoListTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () => onPressed(video.id),
-      focusColor: UIColors.matrix.withOpacity(0.5),
+      highlightColor: UIColors.matrix.withOpacity(0.1),
+      focusColor: UIColors.matrix.withOpacity(0.1),
       splashColor: UIColors.matrix.withOpacity(0.1),
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
@@ -53,7 +54,7 @@ class VideoListTile extends StatelessWidget {
                 height: 90,
                 width: 150,
                 decoration: BoxDecoration(
-                  color: Colors.grey,
+                  color: UIColors.hitGray,
                   borderRadius: BorderRadius.all(Radius.circular(10)),
                 ),
               ),
@@ -67,18 +68,19 @@ class VideoListTile extends StatelessWidget {
                     video.title,
                     style: TextStyle(
                         fontSize: 16,
-                        color: isSelected ? Colors.blue : Colors.black),
+                        color:
+                            isSelected ? UIColors.gold : UIColors.sharkBlack),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     softWrap: true,
                   ),
-                  SizedBox(
-                    height: 4,
-                  ),
-                  Text(
-                    "video.categoryName",
-                    style: TextStyle(fontSize: 12),
-                  ),
+                  // SizedBox(
+                  //   height: 4,
+                  // ),
+                  // Text(
+                  //   "video.categoryName",
+                  //   style: TextStyle(fontSize: 12),
+                  // ),
                 ],
               ),
             )

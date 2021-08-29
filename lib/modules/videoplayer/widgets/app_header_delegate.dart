@@ -28,7 +28,9 @@ class AppHeaderDelegate extends SliverPersistentHeaderDelegate {
         ),
 
         Positioned(
-          top: getOpacity(shrinkOffset) < 0.7 ? 0 : 30,
+          top: getOpacity(shrinkOffset) < 0.7
+              ? MediaQuery.of(context).padding.top - 24
+              : MediaQuery.of(context).padding.top,
           left: shrinkOffset < 0.7 ? 30 : 16,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
