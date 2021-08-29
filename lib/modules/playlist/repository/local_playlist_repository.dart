@@ -15,23 +15,30 @@ class LocalPlaylistRepository implements PlaylistRepository {
   @override
   Future<bool> loadAllPlaylists() async {
     try {
-      final isSeeded =
+      // fetch the playlist seeded flag
+      bool isSeeded =
           preferenceBox.get(Constants.PLAYLIST_SEEDED, defaultValue: false);
 
       if (!isSeeded) {
         print("Loading the playlist into DB");
 
+        // load the data from the json file and convert into playlist Dao
         final response = await rootBundle.loadStructuredData(
             Constants.PLAYLIST_FILE_PATH,
             (result) async => List<dynamic>.from(json.decode(result))
                 .map((e) => PlaylistDao.fromJson(e))
                 .toList());
 
+        // loop through the list and store them  into the box
         response.forEach((element) async {
           await playlistBox.put(element.id, element);
         });
 
+        // we make the flag as true
         await preferenceBox.put(Constants.PLAYLIST_SEEDED, true);
+
+        isSeeded =
+            preferenceBox.get(Constants.PLAYLIST_SEEDED, defaultValue: false);
       }
 
       print("Loaded Playlists ${isSeeded.toString()}");
