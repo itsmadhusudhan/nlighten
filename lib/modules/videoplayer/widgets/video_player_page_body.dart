@@ -101,8 +101,10 @@ class _VideoPlayerPageBodyState extends State<VideoPlayerPageBody> {
                     delegate: SliverChildBuilderDelegate(
                       (context, index) {
                         final _video = videos[index];
+                        final isSelected = _video.id == state.selectedVideo?.id;
 
                         return VideoListTile(
+                          isSelected: isSelected,
                           video: _video,
                           onPressed: (id) {
                             context.read<VideoPlayerCubit>().playVideo(_video);

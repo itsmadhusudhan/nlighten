@@ -162,7 +162,6 @@ class _VideoListPageState extends State<VideoListPage> {
         final _video = videos[index];
 
         return VideoListTile(
-          isSelected: _video.id == state.selectedVideo,
           video: _video,
           onPressed: (id) {
             context

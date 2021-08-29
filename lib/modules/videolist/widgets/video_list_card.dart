@@ -16,7 +16,7 @@ class VideoListCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 220,
+      width: 250,
       margin: EdgeInsets.symmetric(horizontal: 16),
       child: InkWell(
         onTap: () => onPressed(video.id),
@@ -24,13 +24,13 @@ class VideoListCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CachedNetworkImage(
-              height: 120,
+              height: 150,
               imageUrl: video.thumbnailUrl,
               errorWidget: (context, url, error) =>
                   Center(child: Icon(Icons.error)),
               placeholder: (context, url) => Container(
-                height: 120,
-                width: 200,
+                height: 150,
+                width: 250,
                 color: Colors.grey.shade300,
               ),
             ),

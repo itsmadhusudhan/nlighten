@@ -44,7 +44,7 @@ class VideoListCardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 240,
+      height: 280,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -57,9 +57,10 @@ class VideoListCardView extends StatelessWidget {
                   child: Text(
                     playlist.title,
                     style: TextStyle(
-                        fontSize: 20,
-                        color: UIColors.matrix,
-                        fontWeight: FontWeight.w500),
+                      fontSize: 20,
+                      color: UIColors.matrix,
+                      fontWeight: FontWeight.w500,
+                    ),
                     overflow: TextOverflow.ellipsis,
                     softWrap: true,
                   ),
@@ -68,6 +69,7 @@ class VideoListCardView extends StatelessWidget {
                   width: 20,
                 ),
                 InkWell(
+                  highlightColor: UIColors.matrix.withOpacity(0.5),
                   onTap: () {
                     Navigator.of(context).pushNamed(
                       Routes.videoListRoute,

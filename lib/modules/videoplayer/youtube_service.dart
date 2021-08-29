@@ -18,7 +18,7 @@ class YoutubeService {
     controller = YoutubePlayerController(
       initialVideoId: videoId,
       flags: YoutubePlayerFlags(
-        autoPlay: false,
+        autoPlay: true,
         enableCaption: false,
         startAt: startAt,
         // controlsVisibleAtStart: true,
@@ -32,6 +32,9 @@ class YoutubeService {
     // controller.fitHeight(Size(180, 100));
 
     controller.load(video.id);
+
+    // play after loading the new video
+    this.play();
   }
 
   play() {

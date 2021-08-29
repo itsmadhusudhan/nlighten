@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:miniplayer/miniplayer.dart';
 import 'package:nlighten/modules/explore/explore_navigator.dart';
-import 'package:nlighten/modules/history/watch_history_navigator.dart';
 import 'package:nlighten/modules/videoplayer/mini_video_player.dart';
 import 'package:nlighten/modules/home/widget/app_bottom_navigation_bar.dart';
 import 'package:nlighten/modules/videoplayer/utils.dart';
@@ -36,7 +35,11 @@ class _HomePageState extends State<HomePage> {
             children: [
               const ExploreNavigator(),
               // const WatchHistoryNavigator(),
-              Container()
+              Container(
+                child: Center(
+                  child: Text("Audios Coming Soon"),
+                ),
+              )
             ],
           ),
           // MiniVideoPlayer(),
