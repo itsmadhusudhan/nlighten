@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:nlighten_domain/nlighten_domain.dart';
+import 'package:nlighten_ui/nlighten_ui.dart';
 
 class VideoListCard extends StatelessWidget {
   final VideoModel video;
@@ -26,6 +27,23 @@ class VideoListCard extends StatelessWidget {
             CachedNetworkImage(
               height: 150,
               imageUrl: video.thumbnailUrl,
+              imageBuilder: (context, imageProvider) => Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 10,
+                      color: UIColors.hitGray,
+                      offset: Offset(0, 1),
+                      spreadRadius: 2,
+                    )
+                  ],
+                  image: DecorationImage(
+                    image: imageProvider,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
               errorWidget: (context, url, error) =>
                   Center(child: Icon(Icons.error)),
               placeholder: (context, url) => Container(

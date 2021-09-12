@@ -80,7 +80,10 @@ class VideoListCardView extends StatelessWidget {
                   },
                   child: Row(
                     children: [
-                      Text("${playlist.videosList.length} videos"),
+                      Text(
+                        "${playlist.videosList.length} videos",
+                        style: TextStyle(color: UIColors.hitGray),
+                      ),
                       Icon(Icons.keyboard_arrow_right)
                     ],
                   ),

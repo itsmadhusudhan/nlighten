@@ -211,14 +211,16 @@ class _VideoListPageState extends State<VideoListPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: BlocBuilder<VideoListCubit, VideoListState>(
-        builder: (context, state) {
-          return state.maybeWhen(
-            success: (e) => _successBuilder(e),
-            orElse: () => Center(child: CircularProgressIndicator()),
-          );
-        },
+    return SafeArea(
+      child: Scaffold(
+        body: BlocBuilder<VideoListCubit, VideoListState>(
+          builder: (context, state) {
+            return state.maybeWhen(
+              success: (e) => _successBuilder(e),
+              orElse: () => Center(child: CircularProgressIndicator()),
+            );
+          },
+        ),
       ),
     );
   }

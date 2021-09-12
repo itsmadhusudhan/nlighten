@@ -30,19 +30,27 @@ class NLightenTheme {
   );
 
   static final ThemeData lightTheme = _baseTheme.copyWith(
-    primaryColorLight: LightTheme.primary.withOpacity(0.6),
-    textTheme: TextTheme(bodyText2: TextStyle(color: UIColors.sharkBlack)),
-    // primaryColor: LightTheme.primary,
-    accentColor: UIColors.gold,
-    disabledColor: UIColors.hitGray,
-    highlightColor: UIColors.orange,
-    bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      selectedItemColor: LightTheme.primary,
-      unselectedItemColor: UIColors.sharkBlack,
-    ),
-    scaffoldBackgroundColor: UIColors.white,
-    dividerColor: UIColors.hitGray,
-  );
+      primaryColorLight: LightTheme.primary.withOpacity(0.6),
+      textTheme: TextTheme(
+        bodyText2: TextStyle(color: UIColors.sharkBlack),
+        bodyText1: TextStyle(color: UIColors.sharkBlack),
+        subtitle1: TextStyle(color: UIColors.sharkBlack),
+        subtitle2: TextStyle(color: UIColors.sharkBlack),
+      ),
+      // primaryColor: LightTheme.primary,
+      accentColor: UIColors.gold,
+      disabledColor: UIColors.hitGray,
+      highlightColor: UIColors.orange,
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        selectedItemColor: LightTheme.primary,
+        unselectedItemColor: UIColors.sharkBlack,
+      ),
+      scaffoldBackgroundColor: UIColors.white,
+      dividerColor: UIColors.hitGray,
+      popupMenuTheme: PopupMenuThemeData(
+          textStyle: TextStyle(
+        color: UIColors.sharkBlack,
+      )));
 
   static final ThemeData darkTheme = _baseTheme.copyWith(
     primaryColor: UIColors.matrix,

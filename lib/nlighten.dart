@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nlighten/locator.dart';
 
 import 'package:nlighten/modules/category/cubit/category_cubit.dart';
-import 'package:nlighten/modules/history/cubit/watch_history_cubit.dart';
 import 'package:nlighten/modules/playlist/cubit/playlist_cubit.dart';
 import 'package:nlighten/modules/videolist/cubit/video_list_cubit.dart';
 import 'package:nlighten/modules/videoplayer/bloc/player/video_player_cubit.dart';
